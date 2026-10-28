@@ -1,0 +1,2837 @@
+{
+  "schemaVersion": 1,
+  "slug": "isekai-cheat",
+  "kind": "cheat",
+  "checkedAt": "2026-10-28",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de",
+    "fr",
+    "pt"
+  ],
+  "title": {
+    "ko": "이세계 전생 치트 뽑기",
+    "en": "Fantasy Rebirth Ability Draw",
+    "es": "Sorteo de poderes al renacer",
+    "zh": "异世界转生能力抽签",
+    "ja": "異世界転生チート抽選",
+    "de": "Fähigkeit für die Wiedergeburt ziehen",
+    "fr": "Tirage de pouvoir de réincarnation",
+    "pt": "Sorteio de poderes ao renascer"
+  },
+  "description": {
+    "ko": "이세계에 전생한 당신의 능력과 첫 사용 장면을 뽑습니다. 모두 직접 만든 가상 설정입니다.",
+    "en": "Draw your ability and first-use scene in a fantasy rebirth. Every scenario is original fiction.",
+    "es": "Sortea tu poder y su primera escena de uso al renacer en otro mundo. Todo es ficción original.",
+    "zh": "抽取转生异世界后的能力与首次使用场景。全部为原创虚构设定。",
+    "ja": "異世界に転生したときの能力と初使用の場面を抽選します。すべて独自の架空設定です。",
+    "de": "Ziehe deine Fähigkeit und ihren ersten Einsatz nach einer Wiedergeburt in einer Fantasiewelt. Alle Szenarien sind eigens erfunden.",
+    "fr": "Tirez votre pouvoir et sa première utilisation après une réincarnation fantastique. Tous les scénarios sont des fictions originales.",
+    "pt": "Sorteie seu poder e a primeira cena de uso ao renascer em outro mundo. Todos os cenários são ficção original."
+  },
+  "probabilityNote": {
+    "ko": "확률은 제작자가 정한 게임용 가중치입니다. 실제 운명이나 능력과 무관합니다. 재추첨은 현재 결과를 제외하므로 확률이 달라집니다.",
+    "en": "Probabilities use authored game weights. They do not predict real fate or abilities. Redraw excludes the current result, so its probabilities differ.",
+    "es": "Las probabilidades son pesos de juego definidos por el autor. No predicen el destino ni habilidades reales. Al repetir se excluye el resultado actual y cambian las probabilidades.",
+    "zh": "概率采用作者设定的游戏权重，与真实命运或能力无关。重抽会排除当前结果，因此概率会改变。",
+    "ja": "確率は制作者が決めたゲーム用の重みです。現実の運命や能力とは無関係です。引き直しでは現在の結果を除くため確率が変わります。",
+    "de": "Die Wahrscheinlichkeiten beruhen auf festgelegten Spielgewichten. Sie sagen nichts über echtes Schicksal oder Können aus. Beim erneuten Ziehen entfällt das aktuelle Ergebnis; dadurch ändern sich die Wahrscheinlichkeiten.",
+    "fr": "Les probabilités reposent sur des poids de jeu choisis par l’auteur. Elles ne prédisent ni destin ni capacités réelles. Un nouveau tirage exclut le résultat actuel et modifie les probabilités.",
+    "pt": "As probabilidades usam pesos de jogo definidos pelo autor. Não preveem destino ou habilidades reais. Um novo sorteio exclui o resultado atual e altera as probabilidades."
+  },
+  "fieldLabels": {
+    "capability": {
+      "ko": "능력",
+      "en": "Ability",
+      "es": "Poder",
+      "zh": "能力",
+      "ja": "能力",
+      "de": "Fähigkeit",
+      "fr": "Pouvoir",
+      "pt": "Poder"
+    },
+    "condition": {
+      "ko": "발동 조건",
+      "en": "Activation",
+      "es": "Activación",
+      "zh": "发动条件",
+      "ja": "発動条件",
+      "de": "Auslöser",
+      "fr": "Activation",
+      "pt": "Ativação"
+    },
+    "limit": {
+      "ko": "한계",
+      "en": "Limit",
+      "es": "Límite",
+      "zh": "限制",
+      "ja": "限界",
+      "de": "Grenze",
+      "fr": "Limite",
+      "pt": "Limite"
+    },
+    "drawback": {
+      "ko": "대가",
+      "en": "Drawback",
+      "es": "Coste",
+      "zh": "代价",
+      "ja": "代償",
+      "de": "Nachteil",
+      "fr": "Contrepartie",
+      "pt": "Custo"
+    },
+    "firstUse": {
+      "ko": "첫 사용",
+      "en": "First use",
+      "es": "Primer uso",
+      "zh": "首次使用",
+      "ja": "初使用",
+      "de": "Erster Einsatz",
+      "fr": "Premier usage",
+      "pt": "Primeiro uso"
+    }
+  },
+  "sources": [],
+  "entries": [
+    {
+      "id": "pocket-pantry",
+      "weight": 12,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#eef3fb",
+        "coat": "#dab98b",
+        "accent": "#3d6b91",
+        "pattern": "solid",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "hat",
+        "robe": "robe"
+      },
+      "text": {
+        "ko": {
+          "name": "주머니 식품창고",
+          "blurb": "도시락을 따뜻하게 보관하는 주머니.",
+          "fields": {
+            "capability": "넣은 음식의 온도와 신선도를 멈춘다.",
+            "condition": "비어 있는 주머니에 식사 이름을 말한다.",
+            "limit": "음식 2 kg, 주머니 하나만 가능하다.",
+            "drawback": "보관 중인 음식 냄새가 몸에서 난다.",
+            "firstUse": "빗속 피난처에서 따뜻한 수프를 꺼낸다."
+          },
+          "story": "당신은 젖은 여행자에게 수프를 나눠 준다. 숲의 벌들은 당신을 이동식 식당으로 착각한다."
+        },
+        "en": {
+          "name": "Pocket Pantry",
+          "blurb": "A pocket that keeps lunch ready.",
+          "fields": {
+            "capability": "Pauses the temperature and freshness of stored food.",
+            "condition": "Name a meal over an empty pocket.",
+            "limit": "One pocket holds up to 2 kg of food.",
+            "drawback": "You smell like everything stored inside.",
+            "firstUse": "Serve warm soup in a rainy shelter."
+          },
+          "story": "You share soup with a soaked traveler. Woodland bees mistake you for a traveling kitchen."
+        },
+        "es": {
+          "name": "Despensa de bolsillo",
+          "blurb": "Un bolsillo que conserva la comida.",
+          "fields": {
+            "capability": "Detiene los cambios de temperatura y frescura de los alimentos.",
+            "condition": "Nombra una comida ante un bolsillo vacío.",
+            "limit": "Solo un bolsillo y hasta 2 kg de comida.",
+            "drawback": "Tu cuerpo huele a lo que guardas.",
+            "firstUse": "Sacas sopa caliente en un refugio lluvioso."
+          },
+          "story": "Compartes sopa con un viajero empapado. Las abejas del bosque te confunden con una cocina ambulante."
+        },
+        "zh": {
+          "name": "口袋食库",
+          "blurb": "让便当保持刚做好状态的口袋。",
+          "fields": {
+            "capability": "暂停所存食物的温度变化与变质。",
+            "condition": "对空口袋说出一餐的名字。",
+            "limit": "仅限一个口袋，食物上限2 kg。",
+            "drawback": "身上会散发所存食物的气味。",
+            "firstUse": "在雨中的避难棚取出热汤。"
+          },
+          "story": "你把汤分给淋湿的旅人。林中的蜜蜂把你当成了移动厨房。"
+        },
+        "ja": {
+          "name": "ポケット食料庫",
+          "blurb": "弁当を食べ頃のまま保つポケット。",
+          "fields": {
+            "capability": "保存した食品の温度変化と劣化を止める。",
+            "condition": "空のポケットに食事の名前を告げる。",
+            "limit": "一つのポケットに食品2 kgまで。",
+            "drawback": "保存した食品の匂いが体から出る。",
+            "firstUse": "雨宿りの小屋で温かいスープを出す。"
+          },
+          "story": "濡れた旅人にスープを分ける。森の蜂はあなたを移動式の台所だと思い込む。"
+        },
+        "de": {
+          "name": "Taschenvorrat",
+          "blurb": "Eine Tasche hält dein Essen bereit.",
+          "fields": {
+            "capability": "Hält Temperatur und Frische gelagerter Speisen fest.",
+            "condition": "Nenne über einer leeren Tasche ein Gericht.",
+            "limit": "Nur eine Tasche mit höchstens 2 kg Essen.",
+            "drawback": "Du riechst nach dem gelagerten Essen.",
+            "firstUse": "Du holst warme Suppe in einem Regenunterstand hervor."
+          },
+          "story": "Du teilst Suppe mit einem durchnässten Reisenden. Waldbienen halten dich für eine wandernde Küche."
+        },
+        "fr": {
+          "name": "Garde-manger de poche",
+          "blurb": "Une poche qui conserve le repas.",
+          "fields": {
+            "capability": "Fige la température et la fraîcheur des aliments rangés.",
+            "condition": "Nommez un repas devant une poche vide.",
+            "limit": "Une seule poche, avec 2 kg de nourriture au maximum.",
+            "drawback": "Votre corps sent les aliments conservés.",
+            "firstUse": "Vous sortez une soupe chaude sous un abri pluvieux."
+          },
+          "story": "Vous partagez la soupe avec un voyageur trempé. Les abeilles vous prennent pour une cuisine ambulante."
+        },
+        "pt": {
+          "name": "Despensa de bolso",
+          "blurb": "Um bolso mantém a refeição pronta.",
+          "fields": {
+            "capability": "Suspende as mudanças de temperatura e frescor dos alimentos.",
+            "condition": "Diga o nome de uma refeição diante de um bolso vazio.",
+            "limit": "Apenas um bolso e até 2 kg de comida.",
+            "drawback": "Seu corpo fica com o cheiro do alimento guardado.",
+            "firstUse": "Você tira sopa quente em um abrigo na chuva."
+          },
+          "story": "Você divide a sopa com um viajante encharcado. As abelhas da floresta acham que você é uma cozinha ambulante."
+        }
+      }
+    },
+    {
+      "id": "minute-mender",
+      "weight": 10,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#f8eedf",
+        "coat": "#c9d5ef",
+        "accent": "#77529c",
+        "pattern": "patches",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "hood",
+        "robe": "coat"
+      },
+      "text": {
+        "ko": {
+          "name": "5분 수리",
+          "blurb": "막 부서진 물건을 잠깐 전 상태로.",
+          "fields": {
+            "capability": "무생물 한 개를 5분 전 모습으로 되돌린다.",
+            "condition": "부서진 조각에 손을 대고 물 한 방울을 떨어뜨린다.",
+            "limit": "무게 3 kg 이하, 하루 세 번. 생물은 불가하다.",
+            "drawback": "사용 뒤 손가락이 10분간 뻣뻣해진다.",
+            "firstUse": "우물에서 깨진 양동이를 고친다."
+          },
+          "story": "양동이 틈이 닫히자 마을 사람들이 물을 받는다. 당신은 굳은 손가락으로 손잡이를 간신히 잡는다."
+        },
+        "en": {
+          "name": "Five-Minute Mender",
+          "blurb": "Restore something that just broke.",
+          "fields": {
+            "capability": "Returns one nonliving object to its state five minutes ago.",
+            "condition": "Touch a broken piece and add one drop of water.",
+            "limit": "Up to 3 kg, three uses daily; no living things.",
+            "drawback": "Your fingers stiffen for ten minutes.",
+            "firstUse": "Repair a bucket beside the well."
+          },
+          "story": "The bucket seals and the village collects water. Your stiff fingers barely hold its handle."
+        },
+        "es": {
+          "name": "Reparación de cinco minutos",
+          "blurb": "Repara algo que acaba de romperse.",
+          "fields": {
+            "capability": "Devuelve un objeto inerte a su estado de hace cinco minutos.",
+            "condition": "Toca un fragmento roto y añade una gota de agua.",
+            "limit": "Hasta 3 kg, tres usos diarios; no afecta a seres vivos.",
+            "drawback": "Los dedos se entumecen durante diez minutos.",
+            "firstUse": "Reparas un cubo junto al pozo."
+          },
+          "story": "El cubo se cierra y el pueblo recoge agua. Tus dedos rígidos apenas sujetan el asa."
+        },
+        "zh": {
+          "name": "五分钟修补",
+          "blurb": "恢复刚刚损坏的物件。",
+          "fields": {
+            "capability": "把一件非生命物体恢复到五分钟前的状态。",
+            "condition": "触摸破损碎片，并滴上一滴水。",
+            "limit": "上限3 kg，每天三次，不能作用于生物。",
+            "drawback": "手指会僵硬十分钟。",
+            "firstUse": "在井边修好破水桶。"
+          },
+          "story": "桶上的裂缝合拢，村民终于能打水。你僵硬的手指差点握不住提手。"
+        },
+        "ja": {
+          "name": "五分前の修理",
+          "blurb": "壊れたばかりの物を元に戻す。",
+          "fields": {
+            "capability": "無生物一つを五分前の状態に戻す。",
+            "condition": "壊れた破片に触れて水を一滴落とす。",
+            "limit": "3 kg以下、一日三回。生物には使えない。",
+            "drawback": "使用後は指が十分間こわばる。",
+            "firstUse": "井戸のそばで割れたバケツを直す。"
+          },
+          "story": "ひびが閉じて村人たちは水をくめるようになる。あなたは固まった指で何とか取っ手を握る。"
+        },
+        "de": {
+          "name": "Fünf-Minuten-Reparatur",
+          "blurb": "Stellt gerade zerbrochene Dinge wieder her.",
+          "fields": {
+            "capability": "Versetzt einen unbelebten Gegenstand fünf Minuten zurück.",
+            "condition": "Berühre ein Bruchstück und gib einen Tropfen Wasser darauf.",
+            "limit": "Bis 3 kg, dreimal täglich; keine Lebewesen.",
+            "drawback": "Deine Finger werden zehn Minuten lang steif.",
+            "firstUse": "Du reparierst einen Eimer am Brunnen."
+          },
+          "story": "Der Eimer wird dicht und das Dorf schöpft Wasser. Deine steifen Finger halten kaum den Henkel."
+        },
+        "fr": {
+          "name": "Réparation de cinq minutes",
+          "blurb": "Restaure ce qui vient de casser.",
+          "fields": {
+            "capability": "Ramène un objet inanimé à son état d’il y a cinq minutes.",
+            "condition": "Touchez un fragment cassé et ajoutez une goutte d’eau.",
+            "limit": "Jusqu’à 3 kg, trois fois par jour ; aucun être vivant.",
+            "drawback": "Vos doigts se raidissent pendant dix minutes.",
+            "firstUse": "Vous réparez un seau près du puits."
+          },
+          "story": "Le seau se referme et les villageois prennent de l’eau. Vos doigts raides tiennent à peine son anse."
+        },
+        "pt": {
+          "name": "Reparo de cinco minutos",
+          "blurb": "Restaura algo que acabou de quebrar.",
+          "fields": {
+            "capability": "Devolve um objeto inanimado ao estado de cinco minutos atrás.",
+            "condition": "Toque um fragmento quebrado e pingue uma gota de água.",
+            "limit": "Até 3 kg, três usos por dia; não funciona em seres vivos.",
+            "drawback": "Seus dedos ficam rígidos por dez minutos.",
+            "firstUse": "Você conserta um balde junto ao poço."
+          },
+          "story": "A rachadura fecha e os moradores conseguem tirar água. Seus dedos rígidos mal seguram a alça."
+        }
+      }
+    },
+    {
+      "id": "shadow-stairs",
+      "weight": 9,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#ecf5e9",
+        "coat": "#d5c3e8",
+        "accent": "#347368",
+        "pattern": "stripes",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "cap",
+        "robe": "tunic"
+      },
+      "text": {
+        "ko": {
+          "name": "그림자 계단",
+          "blurb": "손이 닿지 않는 곳에 잠깐 오르는 계단.",
+          "fields": {
+            "capability": "자신의 그림자를 단단한 계단으로 세운다.",
+            "condition": "그림자를 보며 일곱까지 센다.",
+            "limit": "최대 12단, 30초 유지. 완전한 어둠에서는 불가하다.",
+            "drawback": "계단이 사라진 뒤 1분간 딸꾹질한다.",
+            "firstUse": "나무에 걸린 약초 바구니를 내린다."
+          },
+          "story": "당신은 계단으로 올라가 바구니를 되찾는다. 약초상은 감사 인사보다 먼저 딸꾹질 횟수를 센다."
+        },
+        "en": {
+          "name": "Shadow Stairs",
+          "blurb": "A brief staircase to an awkward height.",
+          "fields": {
+            "capability": "Raises your own shadow into solid steps.",
+            "condition": "Count to seven while looking at your shadow.",
+            "limit": "Twelve steps for thirty seconds; needs visible shadow.",
+            "drawback": "You hiccup for one minute afterward.",
+            "firstUse": "Retrieve an herb basket caught in a tree."
+          },
+          "story": "You climb up and recover the basket. The herbalist counts your hiccups before offering thanks."
+        },
+        "es": {
+          "name": "Escalera de sombra",
+          "blurb": "Peldaños breves para alcanzar lugares altos.",
+          "fields": {
+            "capability": "Convierte tu sombra en una escalera sólida.",
+            "condition": "Mira tu sombra mientras cuentas hasta siete.",
+            "limit": "Doce peldaños durante treinta segundos; requiere sombra visible.",
+            "drawback": "Después tienes hipo durante un minuto.",
+            "firstUse": "Recuperas una cesta de hierbas atrapada en un árbol."
+          },
+          "story": "Subes y rescatas la cesta. La herbolaria cuenta tus hipos antes de darte las gracias."
+        },
+        "zh": {
+          "name": "影子阶梯",
+          "blurb": "通往高处的临时楼梯。",
+          "fields": {
+            "capability": "将自己的影子竖成立体台阶。",
+            "condition": "看着影子数到七。",
+            "limit": "最多十二级，持续三十秒；必须有可见的影子。",
+            "drawback": "结束后会打嗝一分钟。",
+            "firstUse": "取下挂在树上的草药篮。"
+          },
+          "story": "你爬上台阶拿回篮子。药师先数完你的嗝，才想起道谢。"
+        },
+        "ja": {
+          "name": "影の階段",
+          "blurb": "手が届かない場所へ上がる仮の階段。",
+          "fields": {
+            "capability": "自分の影を硬い階段として立ち上げる。",
+            "condition": "影を見ながら七まで数える。",
+            "limit": "最大十二段、三十秒間。影が見えなければ使えない。",
+            "drawback": "消えた後、一分間しゃっくりが出る。",
+            "firstUse": "木に引っかかった薬草かごを下ろす。"
+          },
+          "story": "階段を上がってかごを取り戻す。薬草売りはお礼より先にしゃっくりの回数を数える。"
+        },
+        "de": {
+          "name": "Schattentreppe",
+          "blurb": "Eine kurze Treppe zu schwer erreichbaren Orten.",
+          "fields": {
+            "capability": "Formt deinen eigenen Schatten zu festen Stufen.",
+            "condition": "Zähle bis sieben und sieh dabei deinen Schatten an.",
+            "limit": "Zwölf Stufen für dreißig Sekunden; sichtbarer Schatten nötig.",
+            "drawback": "Danach hast du eine Minute lang Schluckauf.",
+            "firstUse": "Du holst einen Kräuterkorb aus einem Baum."
+          },
+          "story": "Du steigst hinauf und rettest den Korb. Der Kräuterhändler zählt erst deinen Schluckauf und bedankt sich dann."
+        },
+        "fr": {
+          "name": "Escalier d’ombre",
+          "blurb": "Des marches temporaires pour atteindre une hauteur.",
+          "fields": {
+            "capability": "Dresse votre ombre en escalier solide.",
+            "condition": "Comptez jusqu’à sept en regardant votre ombre.",
+            "limit": "Douze marches pendant trente secondes ; ombre visible nécessaire.",
+            "drawback": "Vous avez le hoquet pendant une minute ensuite.",
+            "firstUse": "Vous récupérez un panier d’herbes coincé dans un arbre."
+          },
+          "story": "Vous montez chercher le panier. L’herboriste compte vos hoquets avant de vous remercier."
+        },
+        "pt": {
+          "name": "Escada de sombra",
+          "blurb": "Degraus temporários para alcançar lugares altos.",
+          "fields": {
+            "capability": "Transforma sua própria sombra em uma escada sólida.",
+            "condition": "Olhe para sua sombra e conte até sete.",
+            "limit": "Doze degraus por trinta segundos; exige sombra visível.",
+            "drawback": "Depois você fica com soluço por um minuto.",
+            "firstUse": "Você resgata uma cesta de ervas presa em uma árvore."
+          },
+          "story": "Você sobe e recupera a cesta. A pessoa que vende ervas conta seus soluços antes de agradecer."
+        }
+      }
+    },
+    {
+      "id": "honest-compass",
+      "weight": 8,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#f5eafa",
+        "coat": "#b8d8c6",
+        "accent": "#95602f",
+        "pattern": "spots",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "none",
+        "robe": "shirt"
+      },
+      "text": {
+        "ko": {
+          "name": "솔직한 나침반",
+          "blurb": "잃어버린 내 물건을 가리키는 손가락.",
+          "fields": {
+            "capability": "직접 만진 적 있는 자기 물건의 방향을 알려 준다.",
+            "condition": "잃어버린 물건 이름과 자신의 실수 하나를 말한다.",
+            "limit": "반경 3 km. 사람과 남의 물건은 찾지 못한다.",
+            "drawback": "말한 실수가 주변 모두에게 메아리친다.",
+            "firstUse": "여관 열쇠를 찾으려 늦잠 잔 일을 고백한다."
+          },
+          "story": "손가락은 세탁 바구니를 가리킨다. 여관 주인은 열쇠를 건네며 아침 식사가 끝났다고 알려 준다."
+        },
+        "en": {
+          "name": "Honest Compass",
+          "blurb": "A finger that points toward your lost belongings.",
+          "fields": {
+            "capability": "Shows the direction of your own item you have previously touched.",
+            "condition": "Name the item and admit one mistake of your own.",
+            "limit": "Within 3 km; cannot locate people or others’ possessions.",
+            "drawback": "Your confession echoes for everyone nearby.",
+            "firstUse": "Admit oversleeping to find an inn key."
+          },
+          "story": "Your finger points toward the laundry basket. The innkeeper hands over the key and says breakfast is over."
+        },
+        "es": {
+          "name": "Brújula sincera",
+          "blurb": "Un dedo señala tus objetos perdidos.",
+          "fields": {
+            "capability": "Indica la dirección de un objeto propio que tocaste.",
+            "condition": "Nombra el objeto y confiesa un error tuyo.",
+            "limit": "Radio de 3 km; no localiza personas ni posesiones ajenas.",
+            "drawback": "Tu confesión resuena ante todos los presentes.",
+            "firstUse": "Confiesas haberte dormido para encontrar la llave de la posada."
+          },
+          "story": "El dedo señala la cesta de ropa. La posadera te da la llave y anuncia que el desayuno terminó."
+        },
+        "zh": {
+          "name": "诚实指南针",
+          "blurb": "手指会指向自己遗失的东西。",
+          "fields": {
+            "capability": "指出你曾亲手碰过的自有物品的方向。",
+            "condition": "说出物品名字，并承认自己的一次失误。",
+            "limit": "半径3 km，无法寻找人或别人的物品。",
+            "drawback": "你的坦白会回响，让周围人都听见。",
+            "firstUse": "为找旅馆钥匙，承认自己睡过了头。"
+          },
+          "story": "手指朝向洗衣篮。老板递来钥匙，顺便通知早餐已经结束。"
+        },
+        "ja": {
+          "name": "正直な方位指",
+          "blurb": "なくした自分の物を指で探す。",
+          "fields": {
+            "capability": "自分で触れたことがある所有物の方向を示す。",
+            "condition": "物の名前と自分の失敗を一つ告白する。",
+            "limit": "半径3 km。人や他人の物は探せない。",
+            "drawback": "告白が響き渡り、周囲に聞かれる。",
+            "firstUse": "宿の鍵を探すため寝坊を告白する。"
+          },
+          "story": "指は洗濯かごを向く。宿の主人は鍵を渡し、朝食は終わったと告げる。"
+        },
+        "de": {
+          "name": "Ehrlicher Kompass",
+          "blurb": "Dein Finger zeigt zu deinen verlorenen Sachen.",
+          "fields": {
+            "capability": "Zeigt die Richtung eines eigenen Gegenstands, den du berührt hast.",
+            "condition": "Nenne den Gegenstand und gestehe einen eigenen Fehler.",
+            "limit": "Umkreis von 3 km; keine Menschen oder fremden Sachen.",
+            "drawback": "Dein Geständnis hallt für alle in der Nähe hörbar nach.",
+            "firstUse": "Du gestehst Verschlafen, um den Zimmerschlüssel zu finden."
+          },
+          "story": "Dein Finger zeigt auf den Wäschekorb. Der Wirt gibt dir den Schlüssel und erklärt das Frühstück für beendet."
+        },
+        "fr": {
+          "name": "Boussole sincère",
+          "blurb": "Un doigt indique vos objets égarés.",
+          "fields": {
+            "capability": "Montre la direction d’un bien personnel que vous avez touché.",
+            "condition": "Nommez l’objet et avouez une de vos erreurs.",
+            "limit": "Rayon de 3 km ; ni personnes ni biens d’autrui.",
+            "drawback": "Votre aveu résonne devant tout le voisinage.",
+            "firstUse": "Vous avouez une grasse matinée pour retrouver une clé d’auberge."
+          },
+          "story": "Votre doigt désigne le panier à linge. L’aubergiste rend la clé et annonce que le petit déjeuner est terminé."
+        },
+        "pt": {
+          "name": "Bússola sincera",
+          "blurb": "Um dedo aponta para seus objetos perdidos.",
+          "fields": {
+            "capability": "Mostra a direção de um objeto seu que você já tocou.",
+            "condition": "Diga o nome do objeto e admita um erro seu.",
+            "limit": "Raio de 3 km; não encontra pessoas nem objetos alheios.",
+            "drawback": "Sua confissão ecoa para todos por perto.",
+            "firstUse": "Você admite ter acordado tarde para achar a chave da pousada."
+          },
+          "story": "Seu dedo aponta para o cesto de roupa. A pessoa da recepção entrega a chave e avisa que o café acabou."
+        }
+      }
+    },
+    {
+      "id": "rain-receipt",
+      "weight": 11,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#edf5f3",
+        "coat": "#e5c3ae",
+        "accent": "#8c4463",
+        "pattern": "tuxedo",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "crown",
+        "robe": "robe"
+      },
+      "text": {
+        "ko": {
+          "name": "빗물 영수증",
+          "blurb": "지나간 비를 한 번 더 쓰는 종이.",
+          "fields": {
+            "capability": "종이에 받은 빗물을 나중에 같은 양으로 쏟는다.",
+            "condition": "비에 젖은 종이에 날짜를 쓰고 말린다.",
+            "limit": "종이 한 장당 양동이 하나, 일주일 보관.",
+            "drawback": "사용 후 머리 위에 작은 구름이 10분 머문다.",
+            "firstUse": "메마른 텃밭에 지난 비를 돌려준다."
+          },
+          "story": "상추가 물을 머금자 농부가 활짝 웃는다. 당신만 작은 구름 밑에서 젖은 채 집에 간다."
+        },
+        "en": {
+          "name": "Rain Receipt",
+          "blurb": "Save a shower for another day.",
+          "fields": {
+            "capability": "Releases rainwater previously recorded on paper.",
+            "condition": "Date a rain-soaked sheet and dry it.",
+            "limit": "One bucket per sheet, stored for one week.",
+            "drawback": "A small cloud follows your head for ten minutes.",
+            "firstUse": "Return last week’s rain to a dry vegetable patch."
+          },
+          "story": "The lettuces drink and the gardener smiles. You alone walk home wet beneath a tiny cloud."
+        },
+        "es": {
+          "name": "Recibo de lluvia",
+          "blurb": "Guarda un chaparrón para otro día.",
+          "fields": {
+            "capability": "Libera el agua de lluvia registrada en papel.",
+            "condition": "Escribe la fecha en una hoja empapada y sécala.",
+            "limit": "Un cubo por hoja, durante una semana.",
+            "drawback": "Una nube pequeña sigue tu cabeza diez minutos.",
+            "firstUse": "Devuelves la lluvia pasada a un huerto seco."
+          },
+          "story": "Las lechugas absorben el agua y la hortelana sonríe. Solo tú regresas mojado bajo una nube diminuta."
+        },
+        "zh": {
+          "name": "雨水收据",
+          "blurb": "把一场雨留到需要时再用。",
+          "fields": {
+            "capability": "释放此前记录在纸上的同等雨水。",
+            "condition": "在淋湿的纸上写日期，再将纸晾干。",
+            "limit": "每张最多一桶，保存一周。",
+            "drawback": "使用后头顶会跟着一朵小云十分钟。",
+            "firstUse": "给干旱菜地补上先前的雨。"
+          },
+          "story": "生菜吸饱了水，菜农笑得很开心。只有你顶着小云，湿淋淋地回家。"
+        },
+        "ja": {
+          "name": "雨の領収書",
+          "blurb": "過ぎた雨を後日に使う紙。",
+          "fields": {
+            "capability": "紙に記録した雨水を同じ量だけ放出する。",
+            "condition": "雨で濡れた紙に日付を書いて乾かす。",
+            "limit": "一枚につきバケツ一杯、一週間保存。",
+            "drawback": "使用後、頭上に小さな雲が十分間ついてくる。",
+            "firstUse": "乾いた畑に先日の雨を戻す。"
+          },
+          "story": "レタスが水を吸い、農家は笑顔になる。あなただけが小さな雲の下で濡れて帰る。"
+        },
+        "de": {
+          "name": "Regenquittung",
+          "blurb": "Hebt einen Schauer für später auf.",
+          "fields": {
+            "capability": "Gibt auf Papier gespeichertes Regenwasser wieder frei.",
+            "condition": "Datiere ein regennasses Blatt und trockne es.",
+            "limit": "Ein Eimer pro Blatt, eine Woche haltbar.",
+            "drawback": "Eine kleine Wolke folgt deinem Kopf zehn Minuten lang.",
+            "firstUse": "Du gibst alten Regen auf ein trockenes Gemüsebeet."
+          },
+          "story": "Der Salat trinkt und der Gärtner lächelt. Nur du gehst unter einer winzigen Wolke nass nach Hause."
+        },
+        "fr": {
+          "name": "Reçu de pluie",
+          "blurb": "Gardez une averse pour plus tard.",
+          "fields": {
+            "capability": "Libère l’eau de pluie enregistrée sur une feuille.",
+            "condition": "Datez une feuille mouillée par la pluie, puis séchez-la.",
+            "limit": "Un seau par feuille, conservé une semaine.",
+            "drawback": "Un petit nuage suit votre tête pendant dix minutes.",
+            "firstUse": "Vous rendez une ancienne pluie à un potager sec."
+          },
+          "story": "Les laitues boivent et la jardinière sourit. Vous rentrez seul sous un minuscule nuage qui vous trempe."
+        },
+        "pt": {
+          "name": "Recibo de chuva",
+          "blurb": "Guarde uma chuva para outro dia.",
+          "fields": {
+            "capability": "Libera a água de chuva registrada em papel.",
+            "condition": "Escreva a data em uma folha molhada pela chuva e seque-a.",
+            "limit": "Um balde por folha, guardado por uma semana.",
+            "drawback": "Uma nuvenzinha segue sua cabeça por dez minutos.",
+            "firstUse": "Você devolve a chuva passada a uma horta seca."
+          },
+          "story": "As alfaces absorvem a água e quem cuida da horta sorri. Só você volta para casa molhado sob uma pequena nuvem."
+        }
+      }
+    },
+    {
+      "id": "talking-soup",
+      "weight": 7,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#f8eaea",
+        "coat": "#e2d58f",
+        "accent": "#596b3d",
+        "pattern": "solid",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "cap",
+        "robe": "coat"
+      },
+      "text": {
+        "ko": {
+          "name": "말하는 수프",
+          "blurb": "재료가 본 일을 알려 주는 식사.",
+          "fields": {
+            "capability": "수프 속 채소가 수확 전 마지막 한 시간의 기억을 말한다.",
+            "condition": "수프가 따뜻할 때 정중히 질문한다.",
+            "limit": "한 그릇에 세 질문. 채소가 본 것만 답한다.",
+            "drawback": "한 시간 동안 목소리가 마지막 채소처럼 삑삑거린다.",
+            "firstUse": "당근에게 밭의 울타리를 누가 열었는지 묻는다."
+          },
+          "story": "당근은 범인이 염소였다고 증언한다. 당신의 삑삑거리는 보고를 듣고도 농부는 곧장 울타리를 고친다."
+        },
+        "en": {
+          "name": "Talking Soup",
+          "blurb": "Dinner remembers what its ingredients saw.",
+          "fields": {
+            "capability": "Vegetables recall their last hour before harvest.",
+            "condition": "Ask politely while the soup is warm.",
+            "limit": "Three questions per bowl; only what vegetables witnessed.",
+            "drawback": "Your voice squeaks like the last vegetable for an hour.",
+            "firstUse": "Ask a carrot who opened the field gate."
+          },
+          "story": "The carrot names a goat as the culprit. Despite your squeaky report, the farmer promptly repairs the gate."
+        },
+        "es": {
+          "name": "Sopa parlante",
+          "blurb": "La cena recuerda lo que vieron sus ingredientes.",
+          "fields": {
+            "capability": "Las verduras cuentan su última hora antes de la cosecha.",
+            "condition": "Pregunta con educación mientras la sopa esté templada.",
+            "limit": "Tres preguntas por cuenco; solo responden lo que presenciaron.",
+            "drawback": "Tu voz chirría como la última verdura durante una hora.",
+            "firstUse": "Preguntas a una zanahoria quién abrió la verja."
+          },
+          "story": "La zanahoria acusa a una cabra. A pesar de tu informe chillón, el granjero arregla la verja de inmediato."
+        },
+        "zh": {
+          "name": "会说话的汤",
+          "blurb": "食材能讲述采收前见过的事。",
+          "fields": {
+            "capability": "蔬菜回忆被采收前最后一小时的经历。",
+            "condition": "趁汤温热时，礼貌地提问。",
+            "limit": "每碗三个问题，只能回答蔬菜亲历的事。",
+            "drawback": "之后一小时，声音像最后答话的蔬菜一样尖细。",
+            "firstUse": "问胡萝卜是谁打开了菜地的栅栏门。"
+          },
+          "story": "胡萝卜指认了一只山羊。听完你尖细的报告，农夫立刻去修栅栏。"
+        },
+        "ja": {
+          "name": "話すスープ",
+          "blurb": "食材が見たことを教える食事。",
+          "fields": {
+            "capability": "野菜が収穫前の最後の一時間を語る。",
+            "condition": "スープが温かいうちに丁寧に質問する。",
+            "limit": "一杯で三問。野菜が見たことしか答えない。",
+            "drawback": "一時間、最後に答えた野菜のような甲高い声になる。",
+            "firstUse": "ニンジンに畑の門を開けた相手を尋ねる。"
+          },
+          "story": "ニンジンはヤギが犯人だと証言する。農家は甲高い報告を聞いてすぐに門を直す。"
+        },
+        "de": {
+          "name": "Sprechende Suppe",
+          "blurb": "Das Essen erinnert sich an seine Zutaten.",
+          "fields": {
+            "capability": "Gemüse erzählt von seiner letzten Stunde vor der Ernte.",
+            "condition": "Frage höflich, solange die Suppe warm ist.",
+            "limit": "Drei Fragen pro Schüssel; nur selbst Erlebtes.",
+            "drawback": "Deine Stimme quietscht eine Stunde wie das letzte Gemüse.",
+            "firstUse": "Du fragst eine Karotte, wer das Feldtor geöffnet hat."
+          },
+          "story": "Die Karotte benennt eine Ziege. Trotz deines quietschenden Berichts repariert der Bauer sofort das Tor."
+        },
+        "fr": {
+          "name": "Soupe parlante",
+          "blurb": "Le repas se souvient de ce que ses ingrédients ont vu.",
+          "fields": {
+            "capability": "Les légumes racontent leur dernière heure avant la récolte.",
+            "condition": "Posez une question poliment tant que la soupe est tiède.",
+            "limit": "Trois questions par bol, sur les seuls faits observés.",
+            "drawback": "Votre voix couine comme le dernier légume pendant une heure.",
+            "firstUse": "Vous demandez à une carotte qui a ouvert le portail du champ."
+          },
+          "story": "La carotte désigne une chèvre. Malgré votre rapport aigu, le fermier répare aussitôt le portail."
+        },
+        "pt": {
+          "name": "Sopa falante",
+          "blurb": "A refeição lembra o que seus ingredientes viram.",
+          "fields": {
+            "capability": "Os legumes contam sua última hora antes da colheita.",
+            "condition": "Pergunte com educação enquanto a sopa estiver morna.",
+            "limit": "Três perguntas por tigela; só relatam o que presenciaram.",
+            "drawback": "Sua voz chia como o último legume por uma hora.",
+            "firstUse": "Você pergunta a uma cenoura quem abriu o portão da horta."
+          },
+          "story": "A cenoura aponta uma cabra como culpada. Apesar do relato esganiçado, a pessoa da horta conserta o portão na hora."
+        }
+      }
+    },
+    {
+      "id": "spare-door",
+      "weight": 6,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#eef3fb",
+        "coat": "#dab98b",
+        "accent": "#3d6b91",
+        "pattern": "patches",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "hat",
+        "robe": "tunic"
+      },
+      "text": {
+        "ko": {
+          "name": "임시 연결문",
+          "blurb": "같은 건물의 두 문을 잠깐 잇는다.",
+          "fields": {
+            "capability": "직접 지나온 두 문 사이를 한 걸음으로 연결한다.",
+            "condition": "양쪽 문에 같은 분필 원을 완성한다.",
+            "limit": "같은 건물 안 200 m 이내, 10초간 한 명만 통과.",
+            "drawback": "통과 후 도착한 문은 한 시간 뻑뻑해진다.",
+            "firstUse": "잊은 장부를 가지러 여관 아래층으로 간다."
+          },
+          "story": "당신은 계단 없이 장부를 가져온다. 이후 손님들은 뻑뻑한 문을 열려고 어깨 운동을 한다."
+        },
+        "en": {
+          "name": "Spare Door",
+          "blurb": "Briefly link two doors in one building.",
+          "fields": {
+            "capability": "Connects two doors you have personally passed through.",
+            "condition": "Complete identical chalk circles on both doors.",
+            "limit": "Same building, within 200 m; one person in ten seconds.",
+            "drawback": "The arrival door sticks for one hour afterward.",
+            "firstUse": "Fetch a forgotten ledger from the inn’s lower floor."
+          },
+          "story": "You retrieve the ledger without taking the stairs. Later guests get an arm workout opening the sticky door."
+        },
+        "es": {
+          "name": "Puerta de enlace",
+          "blurb": "Conecta por un instante dos puertas del mismo edificio.",
+          "fields": {
+            "capability": "Une con un paso dos puertas que ya atravesaste.",
+            "condition": "Completa círculos de tiza iguales en ambas puertas.",
+            "limit": "Mismo edificio, hasta 200 m; una persona en diez segundos.",
+            "drawback": "La puerta de llegada se atasca durante una hora.",
+            "firstUse": "Bajas a recoger un libro de cuentas olvidado."
+          },
+          "story": "Recuperas el libro sin usar las escaleras. Después, los huéspedes ejercitan los brazos para abrir la puerta dura."
+        },
+        "zh": {
+          "name": "临时连门",
+          "blurb": "短暂连接同一建筑里的两扇门。",
+          "fields": {
+            "capability": "让你曾亲自穿过的两扇门一步相通。",
+            "condition": "在两扇门上画完相同的粉笔圆。",
+            "limit": "同楼内距离200 m以内，十秒内只允许一人通过。",
+            "drawback": "抵达处的门会卡涩一小时。",
+            "firstUse": "去旅馆楼下拿忘记的账本。"
+          },
+          "story": "你没走楼梯就取回了账本。后来的客人只好边练臂力边推门。"
+        },
+        "ja": {
+          "name": "仮の連結扉",
+          "blurb": "同じ建物の二つの扉を短時間つなぐ。",
+          "fields": {
+            "capability": "自分が通ったことのある扉同士を一歩で結ぶ。",
+            "condition": "両方の扉に同じチョークの円を描き切る。",
+            "limit": "同じ建物の200 m以内、十秒間に一人だけ。",
+            "drawback": "到着側の扉が一時間開けづらくなる。",
+            "firstUse": "宿の下階へ忘れた帳簿を取りに行く。"
+          },
+          "story": "階段を使わず帳簿を回収する。その後の客は重い扉で腕を鍛えることになる。"
+        },
+        "de": {
+          "name": "Ersatztür",
+          "blurb": "Verbindet kurz zwei Türen in einem Gebäude.",
+          "fields": {
+            "capability": "Verknüpft zwei Türen, durch die du schon selbst gegangen bist.",
+            "condition": "Vollende gleiche Kreidekreise auf beiden Türen.",
+            "limit": "Im selben Gebäude, bis 200 m; eine Person in zehn Sekunden.",
+            "drawback": "Die Zieltür klemmt danach eine Stunde.",
+            "firstUse": "Du holst ein vergessenes Kassenbuch aus dem unteren Stock."
+          },
+          "story": "Du brauchst dafür keine Treppe. Spätere Gäste trainieren ihre Arme an der klemmenden Tür."
+        },
+        "fr": {
+          "name": "Porte de liaison",
+          "blurb": "Relie brièvement deux portes d’un bâtiment.",
+          "fields": {
+            "capability": "Rapproche d’un seul pas deux portes déjà franchies.",
+            "condition": "Terminez deux cercles de craie identiques sur les portes.",
+            "limit": "Même bâtiment, à moins de 200 m ; une personne en dix secondes.",
+            "drawback": "La porte d’arrivée coince pendant une heure.",
+            "firstUse": "Vous récupérez un registre oublié à l’étage inférieur de l’auberge."
+          },
+          "story": "Vous rapportez le registre sans prendre l’escalier. Les clients suivants se musclent les bras pour ouvrir la porte coincée."
+        },
+        "pt": {
+          "name": "Porta de ligação",
+          "blurb": "Liga por um instante duas portas do mesmo prédio.",
+          "fields": {
+            "capability": "Une com um passo duas portas pelas quais você já passou.",
+            "condition": "Complete círculos de giz iguais nas duas portas.",
+            "limit": "Mesmo prédio, até 200 m; uma pessoa em dez segundos.",
+            "drawback": "A porta de chegada fica emperrada por uma hora.",
+            "firstUse": "Você busca um livro de contas no andar inferior da pousada."
+          },
+          "story": "Você recupera o livro sem usar a escada. Depois, os hóspedes exercitam os braços para abrir a porta emperrada."
+        }
+      }
+    },
+    {
+      "id": "gravity-apron",
+      "weight": 10,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#f8eedf",
+        "coat": "#c9d5ef",
+        "accent": "#77529c",
+        "pattern": "stripes",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "hood",
+        "robe": "shirt"
+      },
+      "text": {
+        "ko": {
+          "name": "중력 앞치마",
+          "blurb": "공구가 떨어지지 않고 허리로 돌아온다.",
+          "fields": {
+            "capability": "등록한 공구가 떨어지면 허리띠 쪽으로 끌어당긴다.",
+            "condition": "앞치마 매듭을 묶고 공구 이름을 부른다.",
+            "limit": "공구 세 개, 총 5 kg, 반경 2 m.",
+            "drawback": "작동 중 소매가 판자처럼 뻣뻣해진다.",
+            "firstUse": "지붕 수리 중 떨어진 망치를 되받는다."
+          },
+          "story": "망치는 발 대신 허리로 돌아온다. 당신은 굳은 소매 때문에 모두에게 팔 전체로 인사한다."
+        },
+        "en": {
+          "name": "Gravity Apron",
+          "blurb": "Dropped tools fall back toward your belt.",
+          "fields": {
+            "capability": "Pulls registered tools toward your waist when dropped.",
+            "condition": "Tie the apron and name each tool.",
+            "limit": "Three tools, 5 kg total, within 2 m.",
+            "drawback": "Your sleeves become stiff as boards while active.",
+            "firstUse": "Catch a falling hammer during roof repairs."
+          },
+          "story": "The hammer returns to your belt instead of your foot. Your rigid sleeves make every wave a whole-arm gesture."
+        },
+        "es": {
+          "name": "Delantal gravitatorio",
+          "blurb": "Las herramientas caídas regresan al cinturón.",
+          "fields": {
+            "capability": "Atrae hacia tu cintura las herramientas registradas que caen.",
+            "condition": "Ata el delantal y nombra cada herramienta.",
+            "limit": "Tres herramientas, 5 kg en total, a 2 m como máximo.",
+            "drawback": "Las mangas se vuelven rígidas como tablas mientras funciona.",
+            "firstUse": "Recuperas un martillo al reparar un tejado."
+          },
+          "story": "El martillo vuelve al cinturón en vez de caer sobre tu pie. Las mangas rígidas te obligan a saludar con todo el brazo."
+        },
+        "zh": {
+          "name": "重力围裙",
+          "blurb": "掉落的工具会回到腰间。",
+          "fields": {
+            "capability": "把登记过的掉落工具吸向腰带。",
+            "condition": "系好围裙，并念出工具名字。",
+            "limit": "最多三件，总重5 kg，范围2 m。",
+            "drawback": "生效时袖子像木板一样僵硬。",
+            "firstUse": "修屋顶时接回滑落的锤子。"
+          },
+          "story": "锤子回到了腰带，没有砸到脚。因为袖子太硬，你只能挥整条手臂打招呼。"
+        },
+        "ja": {
+          "name": "重力エプロン",
+          "blurb": "落とした工具が腰へ戻ってくる。",
+          "fields": {
+            "capability": "登録した工具が落ちると腰帯へ引き寄せる。",
+            "condition": "エプロンを結んで工具の名前を呼ぶ。",
+            "limit": "工具三つ、合計5 kg、半径2 m。",
+            "drawback": "作動中は袖が板のように硬くなる。",
+            "firstUse": "屋根の修理中に落とした金づちを回収する。"
+          },
+          "story": "金づちは足でなく腰へ戻る。硬い袖のせいで挨拶には腕全体を振るしかない。"
+        },
+        "de": {
+          "name": "Schwerkraftschürze",
+          "blurb": "Fallende Werkzeuge kehren zum Gürtel zurück.",
+          "fields": {
+            "capability": "Zieht registrierte Werkzeuge beim Fallen zur Taille.",
+            "condition": "Binde die Schürze und nenne jedes Werkzeug.",
+            "limit": "Drei Werkzeuge, zusammen 5 kg, im Umkreis von 2 m.",
+            "drawback": "Deine Ärmel werden währenddessen steif wie Bretter.",
+            "firstUse": "Du fängst einen Hammer bei einer Dachreparatur auf."
+          },
+          "story": "Der Hammer kehrt zum Gürtel statt zum Fuß zurück. Wegen der steifen Ärmel musst du mit dem ganzen Arm winken."
+        },
+        "fr": {
+          "name": "Tablier gravitationnel",
+          "blurb": "Les outils lâchés reviennent à la ceinture.",
+          "fields": {
+            "capability": "Attire vers votre taille les outils enregistrés qui tombent.",
+            "condition": "Nouez le tablier et nommez chaque outil.",
+            "limit": "Trois outils, 5 kg au total, dans un rayon de 2 m.",
+            "drawback": "Vos manches deviennent rigides comme des planches pendant l’effet.",
+            "firstUse": "Vous rattrapez un marteau pendant la réparation d’un toit."
+          },
+          "story": "Le marteau rejoint la ceinture au lieu de votre pied. Vos manches rigides vous obligent à saluer avec tout le bras."
+        },
+        "pt": {
+          "name": "Avental gravitacional",
+          "blurb": "Ferramentas que caem voltam para o cinto.",
+          "fields": {
+            "capability": "Atrai à cintura as ferramentas registradas que forem soltas.",
+            "condition": "Amarre o avental e diga o nome de cada ferramenta.",
+            "limit": "Três ferramentas, 5 kg no total, em um raio de 2 m.",
+            "drawback": "As mangas ficam rígidas como tábuas enquanto funciona.",
+            "firstUse": "Você recupera um martelo durante o conserto de um telhado."
+          },
+          "story": "O martelo volta ao cinto em vez de cair no pé. As mangas duras fazem você acenar com o braço inteiro."
+        }
+      }
+    },
+    {
+      "id": "sunrise-coupon",
+      "weight": 8,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#ecf5e9",
+        "coat": "#d5c3e8",
+        "accent": "#347368",
+        "pattern": "spots",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "cap",
+        "robe": "robe"
+      },
+      "text": {
+        "ko": {
+          "name": "일출 교환권",
+          "blurb": "아침 햇빛을 열 초씩 모아 둔다.",
+          "fields": {
+            "capability": "저장한 햇빛으로 주변을 밝히고 손을 덥힌다.",
+            "condition": "깨어 있는 채 일출을 직접 보고 빈 종이를 든다.",
+            "limit": "하루 한 장, 일곱 장까지. 종이당 열 초이며 불은 못 붙인다.",
+            "drawback": "사용한 날 정오에 유난히 졸리다.",
+            "firstUse": "어두운 창고에서 떨어진 바늘을 찾는다."
+          },
+          "story": "종이를 펴자 바닥의 바늘이 반짝인다. 점심때 당신은 수프 앞에서 꾸벅꾸벅 존다."
+        },
+        "en": {
+          "name": "Sunrise Coupon",
+          "blurb": "Save morning light in ten-second portions.",
+          "fields": {
+            "capability": "Releases stored sunlight for light and gentle warmth.",
+            "condition": "Watch sunrise while awake and hold blank paper.",
+            "limit": "One daily, seven stored; ten seconds each, cannot ignite anything.",
+            "drawback": "You become unusually sleepy at noon that day.",
+            "firstUse": "Find a dropped needle in a dark storehouse."
+          },
+          "story": "The opened paper makes the needle gleam. At lunch you nod off over your soup."
+        },
+        "es": {
+          "name": "Cupón de amanecer",
+          "blurb": "Guarda luz matinal en porciones de diez segundos.",
+          "fields": {
+            "capability": "Libera luz solar almacenada para iluminar y dar calor suave.",
+            "condition": "Mira el amanecer despierto sosteniendo papel en blanco.",
+            "limit": "Uno al día, siete guardados; diez segundos cada uno, sin encender fuego.",
+            "drawback": "Ese día te entra mucho sueño al mediodía.",
+            "firstUse": "Buscas una aguja caída en un almacén oscuro."
+          },
+          "story": "Abres el papel y la aguja brilla. Al almorzar cabeceas frente a la sopa."
+        },
+        "zh": {
+          "name": "日出兑换券",
+          "blurb": "把晨光按十秒一份存起来。",
+          "fields": {
+            "capability": "释放存下的阳光，用来照明和暖手。",
+            "condition": "清醒地亲眼看日出，并举着空白纸。",
+            "limit": "每天一张，最多七张；每张十秒，不能点火。",
+            "drawback": "使用当天正午会格外困。",
+            "firstUse": "在黑仓库里寻找掉落的针。"
+          },
+          "story": "你展开纸，地上的针闪起光。午饭时，你对着汤碗打起了瞌睡。"
+        },
+        "ja": {
+          "name": "日の出交換券",
+          "blurb": "朝日を十秒ずつためておく。",
+          "fields": {
+            "capability": "保存した日光で周囲を照らし、手を温める。",
+            "condition": "起きた状態で日の出を見て白紙を持つ。",
+            "limit": "一日一枚、七枚まで。一枚十秒で着火はできない。",
+            "drawback": "使った日の正午はとても眠くなる。",
+            "firstUse": "暗い倉庫で落とした針を探す。"
+          },
+          "story": "紙を開くと床の針が光る。昼食ではスープの前でうとうとしてしまう。"
+        },
+        "de": {
+          "name": "Sonnenaufgangsgutschein",
+          "blurb": "Speichert Morgenlicht für je zehn Sekunden.",
+          "fields": {
+            "capability": "Gibt gespeichertes Sonnenlicht als Licht und milde Wärme frei.",
+            "condition": "Beobachte wach den Sonnenaufgang und halte leeres Papier.",
+            "limit": "Einer täglich, sieben auf Vorrat; je zehn Sekunden, entzündet nichts.",
+            "drawback": "An diesem Mittag wirst du besonders schläfrig.",
+            "firstUse": "Du suchst eine Nadel im dunklen Lagerraum."
+          },
+          "story": "Das geöffnete Papier lässt die Nadel glänzen. Beim Mittagessen nickst du über deiner Suppe ein."
+        },
+        "fr": {
+          "name": "Coupon d’aube",
+          "blurb": "Gardez le soleil du matin par tranches de dix secondes.",
+          "fields": {
+            "capability": "Libère la lumière stockée pour éclairer et réchauffer doucement.",
+            "condition": "Regardez le lever du soleil éveillé, avec une feuille vierge.",
+            "limit": "Un par jour, sept en réserve ; dix secondes chacun, sans pouvoir allumer de feu.",
+            "drawback": "Vous somnolez beaucoup à midi ce jour-là.",
+            "firstUse": "Vous cherchez une aiguille dans un entrepôt sombre."
+          },
+          "story": "La feuille dépliée fait briller l’aiguille. Au déjeuner, vous piquez du nez devant votre soupe."
+        },
+        "pt": {
+          "name": "Cupom de amanhecer",
+          "blurb": "Guarde luz da manhã em porções de dez segundos.",
+          "fields": {
+            "capability": "Libera luz solar guardada para iluminar e aquecer suavemente.",
+            "condition": "Veja o nascer do sol acordado e segure papel em branco.",
+            "limit": "Um por dia, até sete guardados; dez segundos cada, sem acender fogo.",
+            "drawback": "Nesse dia você sente muito sono ao meio-dia.",
+            "firstUse": "Você procura uma agulha caída em um depósito escuro."
+          },
+          "story": "Ao abrir o papel, a agulha brilha no chão. No almoço, você cochila diante da sopa."
+        }
+      }
+    },
+    {
+      "id": "polite-thunder",
+      "weight": 5,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#f5eafa",
+        "coat": "#b8d8c6",
+        "accent": "#95602f",
+        "pattern": "tuxedo",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "none",
+        "robe": "coat"
+      },
+      "text": {
+        "ko": {
+          "name": "공손한 천둥",
+          "blurb": "안개를 밀어내는 정중한 한마디.",
+          "fields": {
+            "capability": "짧은 천둥으로 짙은 안개와 연기를 밀어낸다.",
+            "condition": "주변에 진심으로 양해를 구한 뒤 손뼉 친다.",
+            "limit": "반경 5 m, 1분간 시야 확보. 물체는 밀지 못한다.",
+            "drawback": "한 시간 동안 속삭임만 가능하다.",
+            "firstUse": "연기 찬 빵집에서 출구를 찾는다."
+          },
+          "story": "천둥이 연기를 밀어내자 모두 문으로 나온다. 당신은 구운 빵 주문을 속삭여야 한다."
+        },
+        "en": {
+          "name": "Polite Thunder",
+          "blurb": "A courteous clap clears the air.",
+          "fields": {
+            "capability": "A brief thunderclap pushes away thick fog and smoke.",
+            "condition": "Sincerely ask those nearby for pardon, then clap.",
+            "limit": "Clears a 5 m radius for one minute; moves no solid objects.",
+            "drawback": "You can only whisper for one hour.",
+            "firstUse": "Locate the exit in a smoky bakery."
+          },
+          "story": "Thunder parts the smoke and everyone reaches the door. You must whisper your order for a loaf."
+        },
+        "es": {
+          "name": "Trueno cortés",
+          "blurb": "Una palmada educada despeja el aire.",
+          "fields": {
+            "capability": "Un trueno breve aparta la niebla espesa y el humo.",
+            "condition": "Pide disculpas sinceras a quienes te rodean y da una palmada.",
+            "limit": "Despeja un radio de 5 m durante un minuto; no mueve objetos sólidos.",
+            "drawback": "Solo puedes susurrar durante una hora.",
+            "firstUse": "Localizas la salida de una panadería llena de humo."
+          },
+          "story": "El trueno abre el humo y todos alcanzan la puerta. Debes pedir el pan en un susurro."
+        },
+        "zh": {
+          "name": "礼貌雷声",
+          "blurb": "客气地拍手就能清开雾气。",
+          "fields": {
+            "capability": "用短促雷声推开浓雾与烟。",
+            "condition": "真心向周围人告罪，然后拍手。",
+            "limit": "半径5 m，保持清晰一分钟，不能推动固体。",
+            "drawback": "之后一小时只能低声耳语。",
+            "firstUse": "在浓烟面包房里找到出口。"
+          },
+          "story": "雷声分开烟雾，大家都走到了门外。你只能用气声点一条面包。"
+        },
+        "ja": {
+          "name": "礼儀正しい雷",
+          "blurb": "丁寧な一拍で霧を払う。",
+          "fields": {
+            "capability": "短い雷鳴で濃い霧や煙を押しのける。",
+            "condition": "周囲に心から断りを入れて手をたたく。",
+            "limit": "半径5 m、一分間視界を確保。固体は動かせない。",
+            "drawback": "一時間はささやき声しか出せない。",
+            "firstUse": "煙のたまったパン屋で出口を探す。"
+          },
+          "story": "雷が煙を分け、全員が外へ出る。あなたはパンの注文をささやくことになる。"
+        },
+        "de": {
+          "name": "Höflicher Donner",
+          "blurb": "Ein höfliches Klatschen klärt die Luft.",
+          "fields": {
+            "capability": "Ein kurzer Donnerschlag schiebt dichten Nebel und Rauch fort.",
+            "condition": "Bitte die Umstehenden aufrichtig um Verzeihung und klatsche.",
+            "limit": "Freie Sicht im Umkreis von 5 m für eine Minute; bewegt keine festen Dinge.",
+            "drawback": "Du kannst eine Stunde nur flüstern.",
+            "firstUse": "Du findest den Ausgang einer verrauchten Bäckerei."
+          },
+          "story": "Der Donner teilt den Rauch und alle erreichen die Tür. Dein Brot musst du flüsternd bestellen."
+        },
+        "fr": {
+          "name": "Tonnerre poli",
+          "blurb": "Un claquement courtois dégage l’air.",
+          "fields": {
+            "capability": "Un bref tonnerre repousse le brouillard épais et la fumée.",
+            "condition": "Demandez sincèrement pardon aux personnes proches, puis frappez des mains.",
+            "limit": "Dégage un rayon de 5 m pendant une minute ; aucun objet solide déplacé.",
+            "drawback": "Vous ne pouvez que chuchoter pendant une heure.",
+            "firstUse": "Vous repérez la sortie d’une boulangerie enfumée."
+          },
+          "story": "Le tonnerre écarte la fumée et tout le monde rejoint la porte. Vous commandez votre pain à voix basse."
+        },
+        "pt": {
+          "name": "Trovão educado",
+          "blurb": "Uma palma cortês limpa o ar.",
+          "fields": {
+            "capability": "Um trovão breve afasta neblina densa e fumaça.",
+            "condition": "Peça licença com sinceridade às pessoas próximas e bata palmas.",
+            "limit": "Abre visão em um raio de 5 m por um minuto; não move sólidos.",
+            "drawback": "Você só consegue sussurrar por uma hora.",
+            "firstUse": "Você encontra a saída de uma padaria cheia de fumaça."
+          },
+          "story": "O trovão abre a fumaça e todos chegam à porta. Você precisa pedir seu pão em um sussurro."
+        }
+      }
+    },
+    {
+      "id": "left-sock-porter",
+      "weight": 9,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#edf5f3",
+        "coat": "#e5c3ae",
+        "accent": "#8c4463",
+        "pattern": "solid",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "crown",
+        "robe": "tunic"
+      },
+      "text": {
+        "ko": {
+          "name": "왼쪽 양말 조수",
+          "blurb": "작은 심부름 하나를 맡는 양말 분신.",
+          "fields": {
+            "capability": "양말 모양 조수가 가벼운 물건을 옮긴다.",
+            "condition": "서로 다른 양말을 신고 왼발로 세 번 뛴다.",
+            "limit": "10분간 한 가지 명령, 1 kg까지. 계단은 못 오른다.",
+            "drawback": "조수가 있는 동안 왼발이 계속 간지럽다.",
+            "firstUse": "넘친 책상에서 편지들을 옆 상자로 옮긴다."
+          },
+          "story": "조수는 편지를 한 장씩 나른다. 당신은 간지럼을 참느라 진지한 회의에서 발만 흔든다."
+        },
+        "en": {
+          "name": "Left-Sock Porter",
+          "blurb": "A sock helper handles one small errand.",
+          "fields": {
+            "capability": "A sock-shaped assistant carries light objects.",
+            "condition": "Wear mismatched socks and hop three times on your left foot.",
+            "limit": "One task for ten minutes, up to 1 kg; cannot climb stairs.",
+            "drawback": "Your left foot tickles while the helper exists.",
+            "firstUse": "Move letters from an overflowing desk into a nearby box."
+          },
+          "story": "The helper carries each letter carefully. You wiggle your foot through a serious meeting to bear the tickling."
+        },
+        "es": {
+          "name": "Ayudante del calcetín izquierdo",
+          "blurb": "Un calcetín se encarga de un pequeño recado.",
+          "fields": {
+            "capability": "Un ayudante con forma de calcetín transporta objetos ligeros.",
+            "condition": "Ponte calcetines distintos y salta tres veces sobre el pie izquierdo.",
+            "limit": "Una orden durante diez minutos, hasta 1 kg; no sube escaleras.",
+            "drawback": "El pie izquierdo te hace cosquillas mientras existe.",
+            "firstUse": "Pasas cartas de una mesa desbordada a una caja cercana."
+          },
+          "story": "El ayudante transporta cada carta con cuidado. Mueves el pie en plena reunión seria para soportar las cosquillas."
+        },
+        "zh": {
+          "name": "左袜搬运工",
+          "blurb": "袜子助手替你做一件小差事。",
+          "fields": {
+            "capability": "召出袜子形状的助手搬运轻物。",
+            "condition": "穿不同的袜子，用左脚跳三次。",
+            "limit": "十分钟内只执行一项指令，上限1 kg，不能爬楼梯。",
+            "drawback": "助手存在时，左脚一直发痒。",
+            "firstUse": "把堆满桌子的信移到旁边的箱子里。"
+          },
+          "story": "助手一封一封仔细搬信。严肃会议中，你只能不停晃脚来忍住痒。"
+        },
+        "ja": {
+          "name": "左靴下の助手",
+          "blurb": "小さなお使いを一つ頼める靴下。",
+          "fields": {
+            "capability": "靴下の形の助手が軽い物を運ぶ。",
+            "condition": "左右違う靴下を履き、左足で三回跳ぶ。",
+            "limit": "十分間、一つの命令、1 kgまで。階段は上れない。",
+            "drawback": "助手がいる間は左足がくすぐったい。",
+            "firstUse": "あふれた机の手紙を隣の箱へ移す。"
+          },
+          "story": "助手は手紙を一枚ずつ丁寧に運ぶ。真面目な会議であなたの足だけが落ち着かない。"
+        },
+        "de": {
+          "name": "Linkssockenhelfer",
+          "blurb": "Ein Sockenhelfer übernimmt einen kleinen Botengang.",
+          "fields": {
+            "capability": "Ein Helfer in Sockenform trägt leichte Gegenstände.",
+            "condition": "Trage ungleiche Socken und hüpfe dreimal auf dem linken Fuß.",
+            "limit": "Eine Aufgabe für zehn Minuten, bis 1 kg; keine Treppen.",
+            "drawback": "Dein linker Fuß kitzelt, solange der Helfer da ist.",
+            "firstUse": "Du lässt Briefe vom vollen Tisch in eine Kiste tragen."
+          },
+          "story": "Der Helfer trägt jeden Brief behutsam. In einer ernsten Sitzung wackelst du gegen das Kitzeln mit dem Fuß."
+        },
+        "fr": {
+          "name": "Assistant chaussette gauche",
+          "blurb": "Une chaussette accomplit une petite course.",
+          "fields": {
+            "capability": "Un assistant en forme de chaussette porte des objets légers.",
+            "condition": "Portez des chaussettes dépareillées et sautez trois fois du pied gauche.",
+            "limit": "Une tâche durant dix minutes, jusqu’à 1 kg ; pas d’escaliers.",
+            "drawback": "Votre pied gauche vous chatouille tant que l’assistant existe.",
+            "firstUse": "Vous déplacez des lettres vers une boîte à côté du bureau plein."
+          },
+          "story": "L’assistant transporte chaque lettre avec soin. En réunion sérieuse, vous remuez le pied pour supporter les chatouilles."
+        },
+        "pt": {
+          "name": "Ajudante da meia esquerda",
+          "blurb": "Uma meia cuida de uma pequena tarefa.",
+          "fields": {
+            "capability": "Um ajudante em forma de meia carrega objetos leves.",
+            "condition": "Use meias diferentes e pule três vezes com o pé esquerdo.",
+            "limit": "Uma tarefa por dez minutos, até 1 kg; não sobe escadas.",
+            "drawback": "Seu pé esquerdo sente cócegas enquanto o ajudante existir.",
+            "firstUse": "Você passa cartas de uma mesa lotada para uma caixa próxima."
+          },
+          "story": "O ajudante leva cada carta com cuidado. Na reunião séria, você mexe o pé para aguentar as cócegas."
+        }
+      }
+    },
+    {
+      "id": "quilt-bridge",
+      "weight": 7,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#f8eaea",
+        "coat": "#e2d58f",
+        "accent": "#596b3d",
+        "pattern": "patches",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "cap",
+        "robe": "shirt"
+      },
+      "text": {
+        "ko": {
+          "name": "이불 다리",
+          "blurb": "천을 펼쳐 작은 틈을 건넌다.",
+          "fields": {
+            "capability": "담요 한 장을 휘지 않는 다리로 바꾼다.",
+            "condition": "양 끝을 묶고 안전한 도착지를 말한다.",
+            "limit": "길이 5 m, 100 kg, 2분. 젖은 천은 불가하다.",
+            "drawback": "건넌 뒤 발이 15분간 잠든 듯 저린다.",
+            "firstUse": "도랑 건너편에 고립된 수레꾼을 돕는다."
+          },
+          "story": "당신이 편 담요로 수레꾼이 짐부터 옮긴다. 다리를 거둔 당신은 저린 발로 천천히 뒤따른다."
+        },
+        "en": {
+          "name": "Quilt Bridge",
+          "blurb": "Spread cloth to cross a small gap.",
+          "fields": {
+            "capability": "Turns one blanket into a rigid bridge.",
+            "condition": "Tie both ends and name a safe landing place.",
+            "limit": "5 m long, 100 kg, two minutes; dry cloth only.",
+            "drawback": "Your feet tingle as if asleep for fifteen minutes afterward.",
+            "firstUse": "Help a cart driver stranded across a ditch."
+          },
+          "story": "The driver moves the cargo across your blanket first. After packing it away, you follow slowly on tingling feet."
+        },
+        "es": {
+          "name": "Puente de manta",
+          "blurb": "Extiende tela para cruzar un hueco pequeño.",
+          "fields": {
+            "capability": "Convierte una manta en un puente rígido.",
+            "condition": "Ata ambos extremos y nombra un destino seguro.",
+            "limit": "5 m de largo, 100 kg, dos minutos; solo tela seca.",
+            "drawback": "Después se te duermen los pies durante quince minutos.",
+            "firstUse": "Ayudas a un carretero aislado al otro lado de una zanja."
+          },
+          "story": "El carretero pasa primero la carga por la manta. Tras recogerla, lo sigues despacio con los pies entumecidos."
+        },
+        "zh": {
+          "name": "被子桥",
+          "blurb": "铺开布料跨过小沟。",
+          "fields": {
+            "capability": "让一张毯子变成不会弯曲的桥。",
+            "condition": "系住两端，并说出安全的落脚点。",
+            "limit": "长5 m，承重100 kg，持续两分钟；只能用干布。",
+            "drawback": "过桥后双脚会麻十五分钟。",
+            "firstUse": "帮助困在沟对面的车夫。"
+          },
+          "story": "车夫先从你铺的毯子上搬过货物。你收好桥，拖着发麻的脚慢慢跟上。"
+        },
+        "ja": {
+          "name": "毛布の橋",
+          "blurb": "布を広げて小さな溝を渡る。",
+          "fields": {
+            "capability": "毛布一枚を曲がらない橋にする。",
+            "condition": "両端を結び、安全な到着地点を告げる。",
+            "limit": "長さ5 m、100 kg、二分間。乾いた布のみ。",
+            "drawback": "渡った後は十五分間、足がしびれる。",
+            "firstUse": "溝の向こうで困った荷車引きを助ける。"
+          },
+          "story": "荷車引きは毛布の上で先に荷物を運ぶ。橋を片付けたあなたは、しびれた足でゆっくり後を追う。"
+        },
+        "de": {
+          "name": "Deckenbrücke",
+          "blurb": "Breite Stoff über eine kleine Lücke.",
+          "fields": {
+            "capability": "Macht eine Decke zu einer starren Brücke.",
+            "condition": "Binde beide Enden fest und nenne einen sicheren Zielort.",
+            "limit": "5 m lang, 100 kg, zwei Minuten; nur trockener Stoff.",
+            "drawback": "Deine Füße kribbeln danach fünfzehn Minuten wie eingeschlafen.",
+            "firstUse": "Du hilfst einem Fuhrmann jenseits eines Grabens."
+          },
+          "story": "Der Fuhrmann trägt zuerst seine Ladung über die Decke. Nach dem Einpacken folgst du langsam auf kribbelnden Füßen."
+        },
+        "fr": {
+          "name": "Pont de couverture",
+          "blurb": "Dépliez du tissu pour franchir un petit vide.",
+          "fields": {
+            "capability": "Transforme une couverture en pont rigide.",
+            "condition": "Attachez les deux bouts et nommez un point d’arrivée sûr.",
+            "limit": "5 m, 100 kg, deux minutes ; tissu sec uniquement.",
+            "drawback": "Vos pieds fourmillent pendant quinze minutes ensuite.",
+            "firstUse": "Vous aidez un charretier bloqué au-delà d’un fossé."
+          },
+          "story": "Le charretier fait d’abord passer ses affaires sur la couverture. Une fois le pont rangé, vous suivez lentement avec vos fourmillements."
+        },
+        "pt": {
+          "name": "Ponte de cobertor",
+          "blurb": "Estenda tecido para cruzar um pequeno vão.",
+          "fields": {
+            "capability": "Transforma um cobertor em uma ponte rígida.",
+            "condition": "Amarre as duas pontas e diga um destino seguro.",
+            "limit": "5 m, 100 kg, dois minutos; apenas tecido seco.",
+            "drawback": "Seus pés formigam por quinze minutos depois.",
+            "firstUse": "Você ajuda uma pessoa com uma carroça do outro lado da vala."
+          },
+          "story": "A carga atravessa o cobertor primeiro. Depois de guardar a ponte, você segue devagar com os pés formigando."
+        }
+      }
+    },
+    {
+      "id": "message-snail",
+      "weight": 8,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#eef3fb",
+        "coat": "#dab98b",
+        "accent": "#3d6b91",
+        "pattern": "stripes",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "hat",
+        "robe": "robe"
+      },
+      "text": {
+        "ko": {
+          "name": "쪽지 달팽이",
+          "blurb": "느리지만 길을 잃지 않는 배달부.",
+          "fields": {
+            "capability": "접은 쪽지에서 달팽이가 나와 메시지를 배달한다.",
+            "condition": "받는 이의 이름과 직접 본 주소를 적는다.",
+            "limit": "500 m 이내, 도착까지 최소 20분. 계단도 간다.",
+            "drawback": "배달이 끝날 때까지 당신은 달릴 수 없다.",
+            "firstUse": "골목 끝 대장간에 수리 요청을 보낸다."
+          },
+          "story": "달팽이는 가게 문을 정확히 찾아간다. 당신은 서두르려다 걷는 속도만 빨라질 뿐임을 깨닫는다."
+        },
+        "en": {
+          "name": "Message Snail",
+          "blurb": "A slow courier that never loses the address.",
+          "fields": {
+            "capability": "A snail unfolds from a note to deliver its message.",
+            "condition": "Write a recipient’s name and an address you have seen.",
+            "limit": "Within 500 m, at least twenty minutes; handles stairs.",
+            "drawback": "You cannot run until delivery finishes.",
+            "firstUse": "Send a repair request to the smithy down the lane."
+          },
+          "story": "The snail finds the correct shop door. You try to hurry and discover that only your walking can get faster."
+        },
+        "es": {
+          "name": "Caracol mensajero",
+          "blurb": "Un mensajero lento que no pierde la dirección.",
+          "fields": {
+            "capability": "Un caracol sale de una nota doblada y entrega el mensaje.",
+            "condition": "Escribe el nombre y una dirección que hayas visto.",
+            "limit": "Hasta 500 m, mínimo veinte minutos; supera escaleras.",
+            "drawback": "No puedes correr hasta que termine la entrega.",
+            "firstUse": "Envías una petición de reparación a la herrería del callejón."
+          },
+          "story": "El caracol encuentra la puerta correcta. Intentas apresurarte y descubres que solo puedes caminar más rápido."
+        },
+        "zh": {
+          "name": "送信蜗牛",
+          "blurb": "慢归慢，却不会找错地址。",
+          "fields": {
+            "capability": "折好的纸条里钻出蜗牛，负责送信。",
+            "condition": "写下收件人姓名，以及你亲眼见过的地址。",
+            "limit": "范围500 m，至少二十分钟，可爬楼梯。",
+            "drawback": "送达前，你无法奔跑。",
+            "firstUse": "向巷尾的铁匠铺发出修理请求。"
+          },
+          "story": "蜗牛准确找到了店门。你想赶路，却发现自己只能加快走路速度。"
+        },
+        "ja": {
+          "name": "伝言カタツムリ",
+          "blurb": "遅いけれど宛先を間違えない配達員。",
+          "fields": {
+            "capability": "折ったメモからカタツムリが出て伝言を届ける。",
+            "condition": "相手の名前と実際に見た住所を書く。",
+            "limit": "500 m以内、最低二十分。階段も進める。",
+            "drawback": "配達が終わるまで走れない。",
+            "firstUse": "路地の鍛冶屋へ修理依頼を送る。"
+          },
+          "story": "カタツムリは正しい店の扉に着く。あなたは急いでも早歩きしかできないと気づく。"
+        },
+        "de": {
+          "name": "Nachrichtenschnecke",
+          "blurb": "Ein langsamer Bote findet immer die Adresse.",
+          "fields": {
+            "capability": "Eine Schnecke entfaltet sich aus einem Zettel und bringt ihn zum Ziel.",
+            "condition": "Schreibe den Namen und eine selbst gesehene Adresse auf.",
+            "limit": "Bis 500 m, mindestens zwanzig Minuten; schafft Treppen.",
+            "drawback": "Bis zur Zustellung kannst du nicht rennen.",
+            "firstUse": "Du schickst einen Reparaturauftrag zur Schmiede in der Gasse."
+          },
+          "story": "Die Schnecke findet die richtige Ladentür. Beim Eilen merkst du, dass du nur schneller gehen kannst."
+        },
+        "fr": {
+          "name": "Escargot messager",
+          "blurb": "Un coursier lent qui trouve toujours l’adresse.",
+          "fields": {
+            "capability": "Un escargot sort d’un billet plié pour livrer son message.",
+            "condition": "Écrivez un nom et une adresse que vous avez déjà vue.",
+            "limit": "Jusqu’à 500 m, au moins vingt minutes ; sait franchir les escaliers.",
+            "drawback": "Vous ne pouvez pas courir avant la livraison.",
+            "firstUse": "Vous envoyez une demande de réparation à la forge au bout de la ruelle."
+          },
+          "story": "L’escargot trouve la bonne porte. Vous essayez de vous hâter, mais seule votre marche peut accélérer."
+        },
+        "pt": {
+          "name": "Caracol mensageiro",
+          "blurb": "Um entregador lento que não erra o endereço.",
+          "fields": {
+            "capability": "Um caracol sai de um bilhete dobrado para entregar a mensagem.",
+            "condition": "Escreva o nome da pessoa e um endereço que você já viu.",
+            "limit": "Até 500 m, no mínimo vinte minutos; sobe escadas.",
+            "drawback": "Você não consegue correr até a entrega terminar.",
+            "firstUse": "Você envia um pedido de reparo à ferraria no fim da rua."
+          },
+          "story": "O caracol encontra a porta certa. Você tenta se apressar e descobre que só consegue andar mais rápido."
+        }
+      }
+    },
+    {
+      "id": "breadcrumb-map",
+      "weight": 10,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#f8eedf",
+        "coat": "#c9d5ef",
+        "accent": "#77529c",
+        "pattern": "spots",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "hood",
+        "robe": "coat"
+      },
+      "text": {
+        "ko": {
+          "name": "빵가루 지도",
+          "blurb": "오늘 걸어온 길을 되짚는 지도.",
+          "fields": {
+            "capability": "빵가루로 최근 24시간 이동 경로를 그린다.",
+            "condition": "빵가루를 탁자에 놓고 출발지를 말한다.",
+            "limit": "자신이 실제 걸은 길만 표시. 미래 경로는 모른다.",
+            "drawback": "새가 빵가루를 먹으면 그 구간의 기억도 10분 흐려진다.",
+            "firstUse": "숲에서 여관으로 돌아가는 길을 확인한다."
+          },
+          "story": "지도는 갈림길의 작은 우물을 표시한다. 당신은 지도를 지키려고 참새와 조용히 눈싸움한다."
+        },
+        "en": {
+          "name": "Breadcrumb Map",
+          "blurb": "Trace the road you walked today.",
+          "fields": {
+            "capability": "Arranges crumbs into your route over the last twenty-four hours.",
+            "condition": "Place crumbs on a table and name the starting point.",
+            "limit": "Only paths you actually walked; no future routes.",
+            "drawback": "If a bird eats a section, its memory blurs for ten minutes.",
+            "firstUse": "Check the way back to the inn from the woods."
+          },
+          "story": "The map marks a little well at the fork. You silently stare down a sparrow to protect the route."
+        },
+        "es": {
+          "name": "Mapa de migas",
+          "blurb": "Reconstruye el camino que has recorrido hoy.",
+          "fields": {
+            "capability": "Ordena migas según tu ruta de las últimas veinticuatro horas.",
+            "condition": "Coloca migas en una mesa y nombra el punto de partida.",
+            "limit": "Solo caminos que recorriste a pie; no muestra rutas futuras.",
+            "drawback": "Si un ave come un tramo, lo recuerdas borroso diez minutos.",
+            "firstUse": "Compruebas cómo volver del bosque a la posada."
+          },
+          "story": "El mapa señala un pozo pequeño en la bifurcación. Mantienes un duelo de miradas con un gorrión para protegerlo."
+        },
+        "zh": {
+          "name": "面包屑地图",
+          "blurb": "重现今天亲自走过的路。",
+          "fields": {
+            "capability": "用面包屑排列出过去二十四小时的行走路线。",
+            "condition": "把面包屑放在桌上，并说出起点。",
+            "limit": "只显示亲自步行的路，不知道未来路线。",
+            "drawback": "若鸟吃掉某段，那段记忆会模糊十分钟。",
+            "firstUse": "确认从树林返回旅馆的路线。"
+          },
+          "story": "地图标出了岔路口的小井。为保护路线，你和一只麻雀默默对瞪。"
+        },
+        "ja": {
+          "name": "パンくず地図",
+          "blurb": "今日歩いた道をたどり直す地図。",
+          "fields": {
+            "capability": "パンくずで過去二十四時間の移動経路を描く。",
+            "condition": "パンくずを机に置いて出発点を告げる。",
+            "limit": "実際に歩いた道だけ。未来の経路は分からない。",
+            "drawback": "鳥に一部を食べられると、その区間の記憶が十分ぼやける。",
+            "firstUse": "森から宿へ戻る道を確かめる。"
+          },
+          "story": "地図は分かれ道の小さな井戸を示す。あなたは道を守るためスズメと無言でにらみ合う。"
+        },
+        "de": {
+          "name": "Brotkrumenkarte",
+          "blurb": "Zeichnet den heute gegangenen Weg nach.",
+          "fields": {
+            "capability": "Ordnet Krümel zu deinem Weg der letzten vierundzwanzig Stunden.",
+            "condition": "Lege Krümel auf einen Tisch und nenne den Startpunkt.",
+            "limit": "Nur tatsächlich gelaufene Wege; keine künftigen Routen.",
+            "drawback": "Frisst ein Vogel ein Stück, verschwimmt die Erinnerung daran für zehn Minuten.",
+            "firstUse": "Du prüfst den Rückweg vom Wald zum Gasthaus."
+          },
+          "story": "Die Karte zeigt einen kleinen Brunnen an der Gabelung. Zum Schutz der Route lieferst du dir ein stummes Blickduell mit einem Spatz."
+        },
+        "fr": {
+          "name": "Carte de miettes",
+          "blurb": "Retracez le chemin parcouru aujourd’hui.",
+          "fields": {
+            "capability": "Dispose des miettes selon votre trajet des dernières vingt-quatre heures.",
+            "condition": "Posez des miettes sur une table et nommez le départ.",
+            "limit": "Uniquement les chemins parcourus à pied ; aucun trajet futur.",
+            "drawback": "Si un oiseau mange un tronçon, son souvenir devient flou pendant dix minutes.",
+            "firstUse": "Vous vérifiez le retour de la forêt à l’auberge."
+          },
+          "story": "La carte indique un petit puits à la bifurcation. Vous défiez un moineau du regard pour protéger le trajet."
+        },
+        "pt": {
+          "name": "Mapa de migalhas",
+          "blurb": "Reveja o caminho que percorreu hoje.",
+          "fields": {
+            "capability": "Organiza migalhas no trajeto das últimas vinte e quatro horas.",
+            "condition": "Ponha migalhas em uma mesa e diga o ponto de partida.",
+            "limit": "Só caminhos percorridos a pé; não mostra rotas futuras.",
+            "drawback": "Se um pássaro comer um trecho, a lembrança dele fica vaga por dez minutos.",
+            "firstUse": "Você confere a volta da floresta à pousada."
+          },
+          "story": "O mapa marca um pequeno poço na bifurcação. Você encara um pardal em silêncio para proteger a rota."
+        }
+      }
+    },
+    {
+      "id": "quiet-bell",
+      "weight": 7,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#ecf5e9",
+        "coat": "#d5c3e8",
+        "accent": "#347368",
+        "pattern": "tuxedo",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "cap",
+        "robe": "tunic"
+      },
+      "text": {
+        "ko": {
+          "name": "소음 보관 종",
+          "blurb": "소리 하나를 잠시 담아 두는 종.",
+          "fields": {
+            "capability": "선택한 반복 소음을 종 안에 가둔다.",
+            "condition": "종을 울리지 않고 흔들며 소리의 원인을 말한다.",
+            "limit": "반경 3 m, 10분. 말소리와 경고음은 가둘 수 없다.",
+            "drawback": "발걸음마다 작은 방울 소리가 한 시간 난다.",
+            "firstUse": "낮잠 시간에 삐걱대는 물레 소리를 가둔다."
+          },
+          "story": "작업장은 조용해지고 아이가 잠든다. 당신은 방울 소리를 피하려 의자에 꼼짝 않고 앉는다."
+        },
+        "en": {
+          "name": "Quiet Bell",
+          "blurb": "Keep one nuisance sound inside a bell.",
+          "fields": {
+            "capability": "Traps a selected repeating noise.",
+            "condition": "Shake the bell without ringing it and name the noise source.",
+            "limit": "Within 3 m for ten minutes; cannot trap speech or alarms.",
+            "drawback": "Your steps jingle for one hour afterward.",
+            "firstUse": "Muffle a squeaky spinning wheel during nap time."
+          },
+          "story": "The workshop quiets and a child falls asleep. You sit perfectly still to avoid jingling footsteps."
+        },
+        "es": {
+          "name": "Campana silenciosa",
+          "blurb": "Guarda un ruido molesto dentro de una campana.",
+          "fields": {
+            "capability": "Atrapa un ruido repetitivo elegido.",
+            "condition": "Agita la campana sin hacerla sonar y nombra la fuente.",
+            "limit": "Radio de 3 m durante diez minutos; no atrapa voces ni alarmas.",
+            "drawback": "Tus pasos tintinean durante una hora después.",
+            "firstUse": "Silencias una rueca que chirría durante la siesta."
+          },
+          "story": "El taller queda tranquilo y un niño se duerme. Te quedas inmóvil en una silla para no hacer tintinear los pasos."
+        },
+        "zh": {
+          "name": "收声铃",
+          "blurb": "把一种烦人的声音暂时收好。",
+          "fields": {
+            "capability": "将选定的重复噪声封进铃里。",
+            "condition": "无声地摇铃，并说出噪声来源。",
+            "limit": "半径3 m，十分钟，不能收走人声或警报。",
+            "drawback": "之后一小时，每走一步都会叮当响。",
+            "firstUse": "午睡时收起纺车的吱呀声。"
+          },
+          "story": "工坊安静下来，孩子睡着了。为免脚步响起铃声，你一动不动地坐在椅子上。"
+        },
+        "ja": {
+          "name": "騒音保管の鈴",
+          "blurb": "困った音を一つしまっておく鈴。",
+          "fields": {
+            "capability": "選んだ繰り返し音を鈴の中に閉じ込める。",
+            "condition": "鳴らさずに鈴を振り、音の原因を告げる。",
+            "limit": "半径3 m、十分間。声や警報は閉じ込められない。",
+            "drawback": "使用後一時間、歩くたびに鈴の音がする。",
+            "firstUse": "昼寝の時間に糸車のきしむ音をしまう。"
+          },
+          "story": "工房が静かになり子供が眠る。あなたは足音を鳴らさないよう椅子でじっとする。"
+        },
+        "de": {
+          "name": "Lärmglocke",
+          "blurb": "Bewahrt ein störendes Geräusch kurz auf.",
+          "fields": {
+            "capability": "Sperrt ein gewähltes wiederkehrendes Geräusch ein.",
+            "condition": "Schüttle die Glocke lautlos und nenne die Geräuschquelle.",
+            "limit": "Im Umkreis von 3 m für zehn Minuten; keine Stimmen oder Alarmsignale.",
+            "drawback": "Deine Schritte klingeln danach eine Stunde lang.",
+            "firstUse": "Du dämpfst ein quietschendes Spinnrad zur Mittagsruhe."
+          },
+          "story": "Die Werkstatt wird still und ein Kind schläft ein. Du sitzt reglos, damit deine Schritte nicht klingeln."
+        },
+        "fr": {
+          "name": "Cloche à bruit",
+          "blurb": "Gardez un son gênant dans une cloche.",
+          "fields": {
+            "capability": "Enferme un bruit répétitif choisi.",
+            "condition": "Secouez la cloche sans la faire sonner et nommez la source.",
+            "limit": "Rayon de 3 m, dix minutes ; ni paroles ni alarmes.",
+            "drawback": "Vos pas tintent pendant une heure ensuite.",
+            "firstUse": "Vous étouffez un rouet qui grince pendant la sieste."
+          },
+          "story": "L’atelier se calme et un enfant s’endort. Vous restez immobile sur une chaise pour éviter vos pas tintants."
+        },
+        "pt": {
+          "name": "Sino de ruído",
+          "blurb": "Guarde um barulho incômodo dentro de um sino.",
+          "fields": {
+            "capability": "Prende um ruído repetitivo escolhido.",
+            "condition": "Balance o sino sem tocá-lo e diga a fonte do ruído.",
+            "limit": "Raio de 3 m por dez minutos; não prende vozes nem alarmes.",
+            "drawback": "Seus passos tilintam por uma hora depois.",
+            "firstUse": "Você abafa uma roca que range na hora da soneca."
+          },
+          "story": "A oficina fica quieta e uma criança adormece. Você fica imóvel na cadeira para os passos não tilintarem."
+        }
+      }
+    },
+    {
+      "id": "rust-garden",
+      "weight": 6,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#f5eafa",
+        "coat": "#b8d8c6",
+        "accent": "#95602f",
+        "pattern": "solid",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "none",
+        "robe": "shirt"
+      },
+      "text": {
+        "ko": {
+          "name": "녹 정원",
+          "blurb": "쇠의 녹을 작은 꽃으로 바꾼다.",
+          "fields": {
+            "capability": "표면의 녹을 떼어내 금속 꽃으로 모은다.",
+            "condition": "화분에 씨앗을 심고 녹슨 물건을 올린다.",
+            "limit": "하루 1 kg 물건 하나. 부식으로 잃은 금속은 복원 못 한다.",
+            "drawback": "손톱이 하루 동안 초록색으로 변한다.",
+            "firstUse": "오래된 경첩의 녹을 벗겨 문을 움직인다."
+          },
+          "story": "경첩이 돌자 작은 쇠꽃이 화분에 핀다. 대장장이는 꽃보다 당신의 초록 손톱을 궁금해한다."
+        },
+        "en": {
+          "name": "Rust Garden",
+          "blurb": "Turn surface rust into little flowers.",
+          "fields": {
+            "capability": "Lifts surface rust and gathers it as metal blossoms.",
+            "condition": "Plant a seed in a pot and place a rusty object above it.",
+            "limit": "One object up to 1 kg daily; cannot replace corroded metal.",
+            "drawback": "Your nails turn green for a day.",
+            "firstUse": "Clear an old hinge so a door can move."
+          },
+          "story": "The hinge turns and iron flowers bloom in the pot. The smith is more curious about your green nails."
+        },
+        "es": {
+          "name": "Jardín de óxido",
+          "blurb": "Convierte el óxido superficial en flores pequeñas.",
+          "fields": {
+            "capability": "Retira óxido de la superficie y lo reúne en flores metálicas.",
+            "condition": "Planta una semilla en una maceta y coloca encima un objeto oxidado.",
+            "limit": "Un objeto de hasta 1 kg al día; no repone metal corroído.",
+            "drawback": "Tus uñas se vuelven verdes durante un día.",
+            "firstUse": "Limpias una bisagra vieja para mover una puerta."
+          },
+          "story": "La bisagra gira y brotan flores de hierro en la maceta. Al herrero le intrigan más tus uñas verdes."
+        },
+        "zh": {
+          "name": "锈花园",
+          "blurb": "把表面铁锈变成小花。",
+          "fields": {
+            "capability": "剥下表面锈层，聚成金属花朵。",
+            "condition": "在花盆种下种子，把生锈物品放在上方。",
+            "limit": "每天一件，上限1 kg，不能补回腐蚀损失的金属。",
+            "drawback": "指甲会变绿一整天。",
+            "firstUse": "清掉旧铰链的锈，让门重新转动。"
+          },
+          "story": "铰链转起来，盆里开出小铁花。铁匠却对你的绿指甲更好奇。"
+        },
+        "ja": {
+          "name": "さびの庭",
+          "blurb": "金属の表面のさびを小さな花に変える。",
+          "fields": {
+            "capability": "表面のさびを取り、金属の花にまとめる。",
+            "condition": "鉢に種を植え、その上にさびた物を置く。",
+            "limit": "一日一個、1 kgまで。腐食で失った金属は戻らない。",
+            "drawback": "爪が一日だけ緑色になる。",
+            "firstUse": "古い蝶番のさびを取り、扉を動かす。"
+          },
+          "story": "蝶番が回り、鉢には小さな鉄の花が咲く。鍛冶屋は花より緑の爪に興味を持つ。"
+        },
+        "de": {
+          "name": "Rostgarten",
+          "blurb": "Verwandelt oberflächlichen Rost in kleine Blumen.",
+          "fields": {
+            "capability": "Löst Oberflächenrost und sammelt ihn als Metallblüten.",
+            "condition": "Pflanze einen Samen im Topf und lege einen rostigen Gegenstand darüber.",
+            "limit": "Ein Gegenstand bis 1 kg täglich; ersetzt kein wegkorrodiertes Metall.",
+            "drawback": "Deine Nägel werden für einen Tag grün.",
+            "firstUse": "Du befreist ein altes Scharnier von Rost."
+          },
+          "story": "Das Scharnier dreht sich und Eisenblumen blühen im Topf. Den Schmied interessieren deine grünen Nägel mehr."
+        },
+        "fr": {
+          "name": "Jardin de rouille",
+          "blurb": "Transforme la rouille de surface en petites fleurs.",
+          "fields": {
+            "capability": "Retire la rouille superficielle et en fait des fleurs métalliques.",
+            "condition": "Plantez une graine en pot et placez l’objet rouillé au-dessus.",
+            "limit": "Un objet de 1 kg maximum par jour ; ne remplace pas le métal corrodé.",
+            "drawback": "Vos ongles deviennent verts pendant une journée.",
+            "firstUse": "Vous dérouillez une vieille charnière pour faire bouger une porte."
+          },
+          "story": "La charnière tourne et des fleurs de fer poussent dans le pot. Le forgeron s’intéresse surtout à vos ongles verts."
+        },
+        "pt": {
+          "name": "Jardim de ferrugem",
+          "blurb": "Transforme ferrugem superficial em pequenas flores.",
+          "fields": {
+            "capability": "Remove a ferrugem da superfície e a reúne em flores metálicas.",
+            "condition": "Plante uma semente em um vaso e ponha um objeto enferrujado acima.",
+            "limit": "Um objeto de até 1 kg por dia; não repõe metal perdido por corrosão.",
+            "drawback": "Suas unhas ficam verdes por um dia.",
+            "firstUse": "Você limpa uma dobradiça velha para abrir uma porta."
+          },
+          "story": "A dobradiça gira e flores de ferro brotam no vaso. A pessoa da ferraria se interessa mais por suas unhas verdes."
+        }
+      }
+    },
+    {
+      "id": "scent-thread",
+      "weight": 9,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#edf5f3",
+        "coat": "#e5c3ae",
+        "accent": "#8c4463",
+        "pattern": "patches",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "crown",
+        "robe": "robe"
+      },
+      "text": {
+        "ko": {
+          "name": "냄새 실",
+          "blurb": "찾는 음식까지 이어지는 색실.",
+          "fields": {
+            "capability": "알고 있는 음식 냄새의 경로를 눈에 보이게 한다.",
+            "condition": "빈 접시를 들고 찾는 음식 냄새를 떠올린다.",
+            "limit": "반경 100 m, 5분. 강풍이나 밀폐된 벽에서는 끊긴다.",
+            "drawback": "끝나면 열 번 연속 재채기한다.",
+            "firstUse": "시장에서 갓 구운 밤을 찾는다."
+          },
+          "story": "노란 실을 따라가니 막 문을 연 가판대가 나온다. 장사꾼은 재채기 열 번을 세고 밤 봉지를 건넨다."
+        },
+        "en": {
+          "name": "Scent Thread",
+          "blurb": "A visible thread leads to a familiar food.",
+          "fields": {
+            "capability": "Makes the trail of a known food smell visible.",
+            "condition": "Hold an empty plate and recall the food’s smell.",
+            "limit": "Within 100 m for five minutes; strong wind or sealed walls break it.",
+            "drawback": "You sneeze ten times in a row afterward.",
+            "firstUse": "Find freshly roasted chestnuts at the market."
+          },
+          "story": "A yellow thread leads to a stall just opening. The seller counts ten sneezes before handing you a bag."
+        },
+        "es": {
+          "name": "Hilo de aroma",
+          "blurb": "Un hilo visible conduce a una comida conocida.",
+          "fields": {
+            "capability": "Hace visible el rastro del olor de un alimento conocido.",
+            "condition": "Sostén un plato vacío y recuerda su olor.",
+            "limit": "Hasta 100 m durante cinco minutos; el viento fuerte o los muros sellados lo cortan.",
+            "drawback": "Después estornudas diez veces seguidas.",
+            "firstUse": "Encuentras castañas recién asadas en el mercado."
+          },
+          "story": "Un hilo amarillo lleva a un puesto que acaba de abrir. La vendedora cuenta diez estornudos antes de darte una bolsa."
+        },
+        "zh": {
+          "name": "气味丝线",
+          "blurb": "用看得见的线寻找熟悉食物。",
+          "fields": {
+            "capability": "让已知食物气味的路径显现出来。",
+            "condition": "端着空盘，回想食物的气味。",
+            "limit": "半径100 m，五分钟；强风或密闭墙壁会截断线。",
+            "drawback": "结束后连续打十个喷嚏。",
+            "firstUse": "在市场寻找刚出炉的烤栗子。"
+          },
+          "story": "你沿黄线找到刚开张的摊位。摊主数完十个喷嚏，才递来一袋栗子。"
+        },
+        "ja": {
+          "name": "匂いの糸",
+          "blurb": "知っている食べ物へ目に見える糸が続く。",
+          "fields": {
+            "capability": "知っている食品の匂いの道筋を見えるようにする。",
+            "condition": "空の皿を持ち、探す食品の匂いを思い出す。",
+            "limit": "半径100 m、五分間。強風や密閉した壁で途切れる。",
+            "drawback": "終了後、十回続けてくしゃみが出る。",
+            "firstUse": "市場で焼きたての栗を探す。"
+          },
+          "story": "黄色い糸をたどると開いたばかりの屋台に着く。店主はくしゃみを十回数えてから栗の袋を渡す。"
+        },
+        "de": {
+          "name": "Duftfaden",
+          "blurb": "Ein sichtbarer Faden führt zu vertrautem Essen.",
+          "fields": {
+            "capability": "Macht die Spur eines bekannten Essensgeruchs sichtbar.",
+            "condition": "Halte einen leeren Teller und erinnere dich an den Geruch.",
+            "limit": "Bis 100 m für fünf Minuten; starker Wind oder dichte Wände unterbrechen ihn.",
+            "drawback": "Danach niest du zehnmal hintereinander.",
+            "firstUse": "Du suchst frisch geröstete Kastanien auf dem Markt."
+          },
+          "story": "Ein gelber Faden führt zum gerade geöffneten Stand. Die Verkäuferin zählt zehn Nieser und gibt dir dann eine Tüte."
+        },
+        "fr": {
+          "name": "Fil d’odeur",
+          "blurb": "Un fil visible mène vers un aliment familier.",
+          "fields": {
+            "capability": "Rend visible le trajet d’une odeur de nourriture connue.",
+            "condition": "Tenez une assiette vide et rappelez-vous l’odeur.",
+            "limit": "Rayon de 100 m, cinq minutes ; vent fort et murs étanches le coupent.",
+            "drawback": "Vous éternuez dix fois de suite ensuite.",
+            "firstUse": "Vous cherchez des châtaignes grillées au marché."
+          },
+          "story": "Un fil jaune mène à un étal qui vient d’ouvrir. Le vendeur compte dix éternuements avant de vous donner un sachet."
+        },
+        "pt": {
+          "name": "Fio de cheiro",
+          "blurb": "Um fio visível leva a uma comida conhecida.",
+          "fields": {
+            "capability": "Mostra o rastro do cheiro de um alimento conhecido.",
+            "condition": "Segure um prato vazio e lembre o cheiro da comida.",
+            "limit": "Até 100 m por cinco minutos; vento forte ou paredes vedadas cortam o fio.",
+            "drawback": "Depois você espirra dez vezes seguidas.",
+            "firstUse": "Você encontra castanhas recém-assadas no mercado."
+          },
+          "story": "Um fio amarelo leva a uma banca que acaba de abrir. A pessoa da banca conta dez espirros e entrega um saquinho."
+        }
+      }
+    },
+    {
+      "id": "margin-accountant",
+      "weight": 10,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#f8eaea",
+        "coat": "#e2d58f",
+        "accent": "#596b3d",
+        "pattern": "stripes",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "cap",
+        "robe": "coat"
+      },
+      "text": {
+        "ko": {
+          "name": "여백 계산사",
+          "blurb": "종이 구석이 물건 수를 세어 준다.",
+          "fields": {
+            "capability": "눈앞의 물건 수와 간단한 합계를 정확히 적는다.",
+            "condition": "종이 여백에 일부러 틀린 답을 쓴다.",
+            "limit": "한눈에 보이는 1,000개 이하. 가려진 물건은 못 센다.",
+            "drawback": "한 시간 동안 숫자 7을 말하면 휘파람만 나온다.",
+            "firstUse": "창고의 사과 상자 수를 센다."
+          },
+          "story": "여백은 틀린 숫자를 지우고 정확한 수를 쓴다. 당신은 일곱 상자를 요청하려다 휘파람으로 협상한다."
+        },
+        "en": {
+          "name": "Margin Accountant",
+          "blurb": "The paper margin counts for you.",
+          "fields": {
+            "capability": "Writes exact visible object counts and simple sums.",
+            "condition": "Intentionally write a wrong answer in the margin.",
+            "limit": "Up to 1,000 visible items; cannot count hidden ones.",
+            "drawback": "Saying seven produces only a whistle for one hour.",
+            "firstUse": "Count the apple crates in a storehouse."
+          },
+          "story": "The margin erases your error and writes the count. You try ordering seven crates and negotiate by whistling."
+        },
+        "es": {
+          "name": "Contable del margen",
+          "blurb": "El margen del papel cuenta por ti.",
+          "fields": {
+            "capability": "Escribe cantidades exactas de objetos visibles y sumas sencillas.",
+            "condition": "Escribe a propósito una respuesta incorrecta en el margen.",
+            "limit": "Hasta 1.000 objetos visibles; no cuenta los ocultos.",
+            "drawback": "Al decir siete, solo silbas durante una hora.",
+            "firstUse": "Cuentas cajas de manzanas en un almacén."
+          },
+          "story": "El margen borra el error y escribe la cantidad correcta. Intentas pedir siete cajas y acabas negociando con silbidos."
+        },
+        "zh": {
+          "name": "页边会计",
+          "blurb": "纸页空白处替你数数。",
+          "fields": {
+            "capability": "准确写出眼前物件数量和简单加法结果。",
+            "condition": "故意在页边写一个错误答案。",
+            "limit": "一次最多1,000件可见物品，不能数被遮住的。",
+            "drawback": "之后一小时，说到数字七就只会吹口哨。",
+            "firstUse": "清点仓库里的苹果箱。"
+          },
+          "story": "页边擦掉错数，写出正确数量。你想订七箱苹果，结果只能用口哨谈价。"
+        },
+        "ja": {
+          "name": "余白の会計係",
+          "blurb": "紙の隅が物の数を数えてくれる。",
+          "fields": {
+            "capability": "見えている物の個数や簡単な合計を正確に書く。",
+            "condition": "紙の余白にわざと間違った答えを書く。",
+            "limit": "一度に見える千個まで。隠れた物は数えられない。",
+            "drawback": "一時間、七と言おうとすると口笛が出る。",
+            "firstUse": "倉庫のリンゴ箱を数える。"
+          },
+          "story": "余白は誤った数字を消して正しい数を書く。七箱を頼みたいあなたは口笛で交渉することになる。"
+        },
+        "de": {
+          "name": "Randbuchhalter",
+          "blurb": "Der Papierrand zählt für dich.",
+          "fields": {
+            "capability": "Notiert genaue Anzahlen sichtbarer Dinge und einfache Summen.",
+            "condition": "Schreibe absichtlich eine falsche Antwort an den Rand.",
+            "limit": "Bis 1.000 sichtbare Gegenstände; zählt nichts Verborgenes.",
+            "drawback": "Eine Stunde lang kommt statt sieben nur ein Pfiff heraus.",
+            "firstUse": "Du zählst Apfelkisten im Lager."
+          },
+          "story": "Der Rand löscht den Fehler und schreibt die richtige Zahl. Beim Bestellen von sieben Kisten verhandelst du pfeifend."
+        },
+        "fr": {
+          "name": "Comptable de marge",
+          "blurb": "La marge compte les objets pour vous.",
+          "fields": {
+            "capability": "Inscrit le nombre exact d’objets visibles et des sommes simples.",
+            "condition": "Écrivez volontairement une mauvaise réponse dans la marge.",
+            "limit": "Jusqu’à 1 000 objets visibles ; ne compte rien de caché.",
+            "drawback": "Pendant une heure, dire sept ne produit qu’un sifflement.",
+            "firstUse": "Vous comptez les caisses de pommes d’un entrepôt."
+          },
+          "story": "La marge efface l’erreur et inscrit le bon nombre. Vous voulez commander sept caisses et négociez en sifflant."
+        },
+        "pt": {
+          "name": "Contador da margem",
+          "blurb": "A margem do papel conta por você.",
+          "fields": {
+            "capability": "Escreve quantidades exatas de objetos visíveis e somas simples.",
+            "condition": "Escreva de propósito uma resposta errada na margem.",
+            "limit": "Até 1.000 objetos visíveis; não conta os escondidos.",
+            "drawback": "Por uma hora, ao dizer sete você só assobia.",
+            "firstUse": "Você conta caixas de maçãs em um depósito."
+          },
+          "story": "A margem apaga o erro e escreve a quantidade certa. Você tenta pedir sete caixas e acaba negociando com assobios."
+        }
+      }
+    },
+    {
+      "id": "puddle-window",
+      "weight": 6,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#eef3fb",
+        "coat": "#dab98b",
+        "accent": "#3d6b91",
+        "pattern": "spots",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "hat",
+        "robe": "tunic"
+      },
+      "text": {
+        "ko": {
+          "name": "물웅덩이 창",
+          "blurb": "기억하는 물웅덩이로 잠깐 바깥을 본다.",
+          "fields": {
+            "capability": "두 물웅덩이의 현재 풍경을 서로 비춘다.",
+            "condition": "직접 본 두 웅덩이를 떠올리며 물에 손가락을 댄다.",
+            "limit": "거리 1 km, 1분, 낮에만. 소리나 물체는 못 보낸다.",
+            "drawback": "얼굴이 10분간 푸르게 빛난다.",
+            "firstUse": "강 건너 길이 물에 잠겼는지 살핀다."
+          },
+          "story": "웅덩이에는 마른 길과 지나가는 수레가 보인다. 당신은 푸른 얼굴로 나룻배 손님들에게 길을 알려 준다."
+        },
+        "en": {
+          "name": "Puddle Window",
+          "blurb": "Briefly look through a puddle you remember.",
+          "fields": {
+            "capability": "Two puddles reflect each other’s current surroundings.",
+            "condition": "Recall two puddles you have seen and touch one with a finger.",
+            "limit": "Within 1 km for one minute, daylight only; no sound or objects.",
+            "drawback": "Your face glows blue for ten minutes.",
+            "firstUse": "Check whether the road across the river is flooded."
+          },
+          "story": "The puddle shows a dry road and a passing cart. With a blue face, you advise the ferry passengers."
+        },
+        "es": {
+          "name": "Ventana de charco",
+          "blurb": "Mira un momento a través de un charco conocido.",
+          "fields": {
+            "capability": "Dos charcos reflejan el entorno actual del otro.",
+            "condition": "Recuerda dos charcos que hayas visto y toca uno con el dedo.",
+            "limit": "Hasta 1 km, un minuto, solo de día; no transmite sonidos ni objetos.",
+            "drawback": "Tu cara brilla en azul durante diez minutos.",
+            "firstUse": "Compruebas si está inundado el camino al otro lado del río."
+          },
+          "story": "El charco muestra un camino seco y un carro. Con la cara azul, orientas a los pasajeros del transbordador."
+        },
+        "zh": {
+          "name": "水洼窗",
+          "blurb": "透过记得的水洼看一眼远处。",
+          "fields": {
+            "capability": "让两个水洼互相映出对方周围的实时景象。",
+            "condition": "回想亲眼见过的两个水洼，用手指碰其中一个。",
+            "limit": "相距1 km内，一分钟，只限白天；不能传声音或物品。",
+            "drawback": "脸会发蓝光十分钟。",
+            "firstUse": "查看河对岸的路是否被淹。"
+          },
+          "story": "水洼映出干燥的路面和经过的货车。你顶着一张蓝脸，给渡船乘客指路。"
+        },
+        "ja": {
+          "name": "水たまりの窓",
+          "blurb": "覚えている水たまりから少しだけ遠くを見る。",
+          "fields": {
+            "capability": "二つの水たまりが互いの現在の周囲を映す。",
+            "condition": "実際に見た二つを思い浮かべ、片方に指で触れる。",
+            "limit": "1 km以内、一分間、昼のみ。音や物は送れない。",
+            "drawback": "顔が十分間青く光る。",
+            "firstUse": "川向こうの道が水没していないか確かめる。"
+          },
+          "story": "水面には乾いた道と通り過ぎる荷車が映る。あなたは青い顔で渡し船の客に道を教える。"
+        },
+        "de": {
+          "name": "Pfützenfenster",
+          "blurb": "Blicke kurz durch eine bekannte Pfütze.",
+          "fields": {
+            "capability": "Zwei Pfützen spiegeln die gegenwärtige Umgebung der jeweils anderen.",
+            "condition": "Erinnere dich an zwei selbst gesehene Pfützen und berühre eine.",
+            "limit": "Bis 1 km, eine Minute, nur bei Tageslicht; weder Ton noch Gegenstände.",
+            "drawback": "Dein Gesicht leuchtet zehn Minuten blau.",
+            "firstUse": "Du prüfst, ob der Weg jenseits des Flusses überflutet ist."
+          },
+          "story": "Die Pfütze zeigt einen trockenen Weg und einen Wagen. Mit blauem Gesicht berätst du die Fährgäste."
+        },
+        "fr": {
+          "name": "Fenêtre de flaque",
+          "blurb": "Regardez brièvement par une flaque connue.",
+          "fields": {
+            "capability": "Deux flaques reflètent chacune le paysage actuel de l’autre.",
+            "condition": "Rappelez-vous deux flaques déjà vues et touchez l’une du doigt.",
+            "limit": "À moins de 1 km, une minute, de jour ; ni son ni objets transmis.",
+            "drawback": "Votre visage brille en bleu pendant dix minutes.",
+            "firstUse": "Vous vérifiez si la route au-delà du fleuve est inondée."
+          },
+          "story": "La flaque montre une route sèche et une charrette. Le visage bleu, vous renseignez les passagers du bac."
+        },
+        "pt": {
+          "name": "Janela de poça",
+          "blurb": "Veja por um instante através de uma poça conhecida.",
+          "fields": {
+            "capability": "Duas poças refletem o cenário atual uma da outra.",
+            "condition": "Lembre duas poças que já viu e toque uma com o dedo.",
+            "limit": "Até 1 km, um minuto, só de dia; não transmite som nem objetos.",
+            "drawback": "Seu rosto brilha em azul por dez minutos.",
+            "firstUse": "Você confere se o caminho do outro lado do rio está alagado."
+          },
+          "story": "A poça mostra uma estrada seca e uma carroça passando. Com o rosto azul, você orienta os passageiros da balsa."
+        }
+      }
+    },
+    {
+      "id": "compliment-cushion",
+      "weight": 7,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#f8eedf",
+        "coat": "#c9d5ef",
+        "accent": "#77529c",
+        "pattern": "tuxedo",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "hood",
+        "robe": "shirt"
+      },
+      "text": {
+        "ko": {
+          "name": "칭찬 쿠션",
+          "blurb": "진심 어린 칭찬이 착지할 자리를 만든다.",
+          "fields": {
+            "capability": "낙하 지점에 투명한 쿠션 하나를 만든다.",
+            "condition": "누군가에게 아직 말하지 않았던 진심의 칭찬을 한다.",
+            "limit": "한 명의 2 m 이하 낙하만 완충, 10분 안에 써야 한다.",
+            "drawback": "사용 후 목소리가 30분간 쉰다.",
+            "firstUse": "사다리에서 미끄러진 재봉사를 받쳐 준다."
+          },
+          "story": "당신은 솜씨가 좋다는 말을 겨우 끝낸다. 재봉사는 쿠션에 내려앉고 당신에게 따뜻한 차를 건넨다."
+        },
+        "en": {
+          "name": "Compliment Cushion",
+          "blurb": "A sincere compliment makes a soft landing.",
+          "fields": {
+            "capability": "Creates one invisible cushion beneath a falling person.",
+            "condition": "Give someone a sincere compliment you have never told them.",
+            "limit": "One person falling at most 2 m; use within ten minutes.",
+            "drawback": "Your voice becomes hoarse for thirty minutes afterward.",
+            "firstUse": "Catch a tailor slipping off a ladder."
+          },
+          "story": "You barely finish praising the tailor’s skill. The tailor lands on the cushion and brings you warm tea."
+        },
+        "es": {
+          "name": "Cojín de elogios",
+          "blurb": "Un elogio sincero crea un aterrizaje suave.",
+          "fields": {
+            "capability": "Crea un cojín invisible bajo una persona que cae.",
+            "condition": "Haz a alguien un elogio sincero que nunca le hayas dicho.",
+            "limit": "Una persona y una caída máxima de 2 m; úsalo en diez minutos.",
+            "drawback": "Después se te queda la voz ronca treinta minutos.",
+            "firstUse": "Amortiguas la caída de un sastre desde una escalera."
+          },
+          "story": "Apenas terminas de elogiar su habilidad. El sastre aterriza en el cojín y te trae té caliente."
+        },
+        "zh": {
+          "name": "夸奖软垫",
+          "blurb": "真心的夸奖带来柔软的落点。",
+          "fields": {
+            "capability": "在坠落者下方生成一个透明软垫。",
+            "condition": "对某人说一句从未告诉过他的真心赞美。",
+            "limit": "只缓冲一人从2 m以内的坠落，须十分钟内使用。",
+            "drawback": "使用后会沙哑三十分钟。",
+            "firstUse": "接住从梯子滑下来的裁缝。"
+          },
+          "story": "你刚好说完对手艺的称赞。裁缝落在软垫上，随后给你端来热茶。"
+        },
+        "ja": {
+          "name": "ほめ言葉クッション",
+          "blurb": "本心からのほめ言葉で着地を柔らかくする。",
+          "fields": {
+            "capability": "落ちる人の下に透明なクッションを一つ作る。",
+            "condition": "まだ本人に伝えていない本心からのほめ言葉を言う。",
+            "limit": "一人の2 m以下の落下のみ。十分以内に使う。",
+            "drawback": "使用後は三十分間声がかれる。",
+            "firstUse": "はしごから滑った仕立屋を受け止める。"
+          },
+          "story": "腕がいいと伝え終わるぎりぎりで間に合う。仕立屋はクッションに着地し、温かいお茶を持ってくる。"
+        },
+        "de": {
+          "name": "Komplimentkissen",
+          "blurb": "Ein ehrliches Lob macht die Landung weich.",
+          "fields": {
+            "capability": "Erzeugt ein unsichtbares Kissen unter einer fallenden Person.",
+            "condition": "Mache jemandem ein ehrliches, bisher unausgesprochenes Kompliment.",
+            "limit": "Eine Person, höchstens 2 m Fallhöhe; innerhalb von zehn Minuten nutzen.",
+            "drawback": "Deine Stimme wird danach dreißig Minuten heiser.",
+            "firstUse": "Du fängst einen von der Leiter rutschenden Schneider auf."
+          },
+          "story": "Du wirst mit dem Lob seiner Arbeit gerade rechtzeitig fertig. Er landet auf dem Kissen und bringt dir warmen Tee."
+        },
+        "fr": {
+          "name": "Coussin de compliment",
+          "blurb": "Un compliment sincère adoucit la chute.",
+          "fields": {
+            "capability": "Crée un coussin invisible sous une personne qui tombe.",
+            "condition": "Faites un compliment sincère jamais encore adressé à cette personne.",
+            "limit": "Une personne tombant de 2 m maximum ; à utiliser en dix minutes.",
+            "drawback": "Votre voix devient rauque pendant trente minutes ensuite.",
+            "firstUse": "Vous amortissez la chute d’un tailleur depuis une échelle."
+          },
+          "story": "Vous finissez tout juste de louer son savoir-faire. Le tailleur atterrit sur le coussin et vous apporte du thé chaud."
+        },
+        "pt": {
+          "name": "Almofada de elogio",
+          "blurb": "Um elogio sincero garante uma queda suave.",
+          "fields": {
+            "capability": "Cria uma almofada invisível sob uma pessoa que cai.",
+            "condition": "Faça a alguém um elogio sincero que nunca contou antes.",
+            "limit": "Uma pessoa caindo de até 2 m; use em dez minutos.",
+            "drawback": "Sua voz fica rouca por trinta minutos depois.",
+            "firstUse": "Você ampara uma pessoa da alfaiataria que escorrega da escada."
+          },
+          "story": "Você mal termina de elogiar a habilidade dela. Ela cai na almofada e depois traz chá quente para você."
+        }
+      }
+    },
+    {
+      "id": "rain-pause",
+      "weight": 3,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#ecf5e9",
+        "coat": "#d5c3e8",
+        "accent": "#347368",
+        "pattern": "solid",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "cap",
+        "robe": "robe"
+      },
+      "text": {
+        "ko": {
+          "name": "10초 빗방울 정지",
+          "blurb": "빗방울만 공중에서 잠깐 멈춘다.",
+          "fields": {
+            "capability": "주변에 떨어지는 빗방울을 공중에 정지시킨다.",
+            "condition": "젖은 손으로 하늘을 가리키고 열까지 거꾸로 센다.",
+            "limit": "반경 100 m, 열 초, 하루 한 번. 바람과 번개는 그대로다.",
+            "drawback": "멈춘 비는 끝에 한꺼번에 쏟아지고 당신의 신발은 하루 삑삑댄다.",
+            "firstUse": "장을 옮기는 상인들이 차양을 펴도록 시간을 번다."
+          },
+          "story": "빗방울 사이에서 모두 차양 끈을 묶는다. 당신은 마지막 물폭탄을 피하고 삑삑대는 신발로 퇴장한다."
+        },
+        "en": {
+          "name": "Ten-Second Rain Pause",
+          "blurb": "Only the raindrops stop in midair.",
+          "fields": {
+            "capability": "Suspends falling raindrops around you.",
+            "condition": "Point a wet hand skyward and count backward from ten.",
+            "limit": "A 100 m radius for ten seconds, once daily; wind and lightning continue.",
+            "drawback": "Held rain falls together afterward, and your shoes squeak all day.",
+            "firstUse": "Buy time for traders to unfold their awnings."
+          },
+          "story": "Everyone ties the awning cords between floating drops. You dodge the final downpour and leave in squeaking shoes."
+        },
+        "es": {
+          "name": "Pausa de lluvia",
+          "blurb": "Solo las gotas se detienen en el aire.",
+          "fields": {
+            "capability": "Suspende las gotas que caen a tu alrededor.",
+            "condition": "Señala el cielo con la mano mojada y cuenta desde diez hacia atrás.",
+            "limit": "Radio de 100 m, diez segundos, una vez al día; viento y rayos continúan.",
+            "drawback": "La lluvia retenida cae de golpe y los zapatos chirrían todo el día.",
+            "firstUse": "Das tiempo a los comerciantes para extender sus toldos."
+          },
+          "story": "Todos atan las cuerdas entre gotas inmóviles. Esquivas el chaparrón final y te marchas con zapatos chirriantes."
+        },
+        "zh": {
+          "name": "十秒停雨",
+          "blurb": "只有雨滴暂时悬停在空中。",
+          "fields": {
+            "capability": "让周围正在落下的雨滴静止。",
+            "condition": "用湿手指向天空，从十倒数。",
+            "limit": "半径100 m，十秒，每天一次；风和闪电不会停止。",
+            "drawback": "暂停的雨最后一起落下，鞋子会吱响一整天。",
+            "firstUse": "为商贩争取撑开雨棚的时间。"
+          },
+          "story": "大家在悬浮雨滴间系好棚绳。你躲过最后的水瀑，穿着吱响的鞋离开。"
+        },
+        "ja": {
+          "name": "十秒の雨止め",
+          "blurb": "雨粒だけが空中で少し止まる。",
+          "fields": {
+            "capability": "周囲に降る雨粒を空中で静止させる。",
+            "condition": "濡れた手を空へ向け、十から逆に数える。",
+            "limit": "半径100 m、十秒、一日一回。風と雷は止まらない。",
+            "drawback": "止めた雨は最後にまとめて落ち、靴は一日きゅっきゅと鳴る。",
+            "firstUse": "商人たちがひさしを広げる時間を作る。"
+          },
+          "story": "浮いた雨粒の間で皆がひさしのひもを結ぶ。あなたは最後の水を避け、鳴る靴で立ち去る。"
+        },
+        "de": {
+          "name": "Zehn Sekunden Regenpause",
+          "blurb": "Nur die Regentropfen bleiben in der Luft stehen.",
+          "fields": {
+            "capability": "Hält fallende Regentropfen um dich herum an.",
+            "condition": "Zeige mit nasser Hand zum Himmel und zähle von zehn rückwärts.",
+            "limit": "100 m Umkreis, zehn Sekunden, einmal täglich; Wind und Blitze laufen weiter.",
+            "drawback": "Der Regen fällt danach auf einmal, und deine Schuhe quietschen den ganzen Tag.",
+            "firstUse": "Du verschaffst Händlern Zeit zum Aufspannen ihrer Markisen."
+          },
+          "story": "Alle knoten zwischen schwebenden Tropfen die Seile fest. Du weichst dem letzten Wasserschwall aus und gehst mit quietschenden Schuhen."
+        },
+        "fr": {
+          "name": "Pause de pluie",
+          "blurb": "Seules les gouttes s’arrêtent dans les airs.",
+          "fields": {
+            "capability": "Suspend les gouttes de pluie autour de vous.",
+            "condition": "Pointez le ciel d’une main mouillée et comptez à rebours depuis dix.",
+            "limit": "Rayon de 100 m, dix secondes, une fois par jour ; vent et éclairs continuent.",
+            "drawback": "L’eau retenue tombe d’un coup et vos chaussures couinent toute la journée.",
+            "firstUse": "Vous laissez aux marchands le temps de déployer leurs auvents."
+          },
+          "story": "Chacun noue ses cordes entre les gouttes immobiles. Vous évitez la dernière douche et partez avec des chaussures grinçantes."
+        },
+        "pt": {
+          "name": "Pausa de chuva",
+          "blurb": "Só as gotas param no ar por um instante.",
+          "fields": {
+            "capability": "Suspende as gotas de chuva que caem ao seu redor.",
+            "condition": "Aponte a mão molhada para o céu e conte de dez para trás.",
+            "limit": "Raio de 100 m, dez segundos, uma vez ao dia; vento e raios continuam.",
+            "drawback": "A água retida cai toda de uma vez e seus sapatos rangem o dia inteiro.",
+            "firstUse": "Você dá tempo aos comerciantes para abrir os toldos."
+          },
+          "story": "Todos amarram as cordas entre gotas suspensas. Você desvia da água acumulada e sai com os sapatos rangendo."
+        }
+      }
+    },
+    {
+      "id": "parcel-bubble",
+      "weight": 8,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#f5eafa",
+        "coat": "#b8d8c6",
+        "accent": "#95602f",
+        "pattern": "patches",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "none",
+        "robe": "coat"
+      },
+      "text": {
+        "ko": {
+          "name": "소포 거품",
+          "blurb": "소중한 물건 하나를 마르고 안전하게.",
+          "fields": {
+            "capability": "작은 물건을 방수·충격 완충 거품으로 감싼다.",
+            "condition": "물건에 끈을 매고 안전하게 도착하라고 말한다.",
+            "limit": "1 kg 이하 물건 하나, 한 시간. 생물과 날카로운 내부 물체는 불가하다.",
+            "drawback": "한 시간 동안 머리카락이 위로 뜬다.",
+            "firstUse": "자갈길에서 도자기 찻잔을 운반한다."
+          },
+          "story": "거품 속 찻잔은 수레가 흔들려도 멀쩡하다. 도착한 주인은 찻잔보다 곧게 선 당신의 머리부터 본다."
+        },
+        "en": {
+          "name": "Parcel Bubble",
+          "blurb": "Keep one small possession dry and cushioned.",
+          "fields": {
+            "capability": "Wraps an object in a waterproof, shock-cushioning bubble.",
+            "condition": "Tie a string around it and wish it a safe arrival.",
+            "limit": "One object up to 1 kg for an hour; no life or sharp contents.",
+            "drawback": "Your hair floats upward for one hour.",
+            "firstUse": "Carry a porcelain cup over a cobbled road."
+          },
+          "story": "The cup stays intact as the cart rattles. Its owner notices your upright hair before the cup."
+        },
+        "es": {
+          "name": "Burbuja de paquete",
+          "blurb": "Mantiene un objeto pequeño seco y protegido.",
+          "fields": {
+            "capability": "Envuelve un objeto en una burbuja impermeable que amortigua golpes.",
+            "condition": "Ata una cuerda al objeto y deséale un viaje seguro.",
+            "limit": "Un objeto de hasta 1 kg durante una hora; no admite seres vivos ni contenido afilado.",
+            "drawback": "El pelo te flota hacia arriba durante una hora.",
+            "firstUse": "Transportas una taza de porcelana por un camino empedrado."
+          },
+          "story": "La taza queda intacta pese a los baches del carro. Su dueña mira primero tu pelo erguido."
+        },
+        "zh": {
+          "name": "包裹泡泡",
+          "blurb": "让一件小物保持干燥并缓冲碰撞。",
+          "fields": {
+            "capability": "用防水缓冲气泡包住物件。",
+            "condition": "给物件系上绳子，祝它平安抵达。",
+            "limit": "一件不超过1 kg，持续一小时；不能装生物或内部尖锐物。",
+            "drawback": "头发会向上飘一小时。",
+            "firstUse": "沿石子路运送瓷茶杯。"
+          },
+          "story": "货车一路颠簸，泡泡里的茶杯安然无恙。主人先注意到你竖起的头发，才看茶杯。"
+        },
+        "ja": {
+          "name": "荷物の泡",
+          "blurb": "小さな持ち物を濡れと衝撃から守る。",
+          "fields": {
+            "capability": "物を防水で衝撃を和らげる泡で包む。",
+            "condition": "物にひもを結び、無事の到着を願う。",
+            "limit": "1 kg以下一つ、一時間。生物や鋭い中身は不可。",
+            "drawback": "一時間、髪の毛が上に浮く。",
+            "firstUse": "石だらけの道で磁器の茶わんを運ぶ。"
+          },
+          "story": "荷車が揺れても泡の中の茶わんは無事だ。持ち主は茶わんより先に逆立った髪を見る。"
+        },
+        "de": {
+          "name": "Paketblase",
+          "blurb": "Hält einen kleinen Gegenstand trocken und gepolstert.",
+          "fields": {
+            "capability": "Umschließt ihn mit einer wasserdichten, stoßdämpfenden Blase.",
+            "condition": "Binde eine Schnur darum und wünsche ihm eine sichere Ankunft.",
+            "limit": "Ein Gegenstand bis 1 kg für eine Stunde; nichts Lebendes oder Scharfkantiges darin.",
+            "drawback": "Deine Haare schweben eine Stunde nach oben.",
+            "firstUse": "Du transportierst eine Porzellantasse über Kopfsteinpflaster."
+          },
+          "story": "Die Tasse bleibt trotz des rüttelnden Wagens heil. Ihr Besitzer bemerkt zuerst deine aufrechten Haare."
+        },
+        "fr": {
+          "name": "Bulle de colis",
+          "blurb": "Garde un petit objet au sec et amortit les chocs.",
+          "fields": {
+            "capability": "Enveloppe un objet d’une bulle étanche et protectrice.",
+            "condition": "Nouez une ficelle autour de l’objet et souhaitez-lui bonne arrivée.",
+            "limit": "Un objet de 1 kg maximum, une heure ; ni être vivant ni contenu pointu.",
+            "drawback": "Vos cheveux flottent vers le haut pendant une heure.",
+            "firstUse": "Vous transportez une tasse en porcelaine sur des pavés."
+          },
+          "story": "La tasse reste intacte malgré les secousses de la charrette. Sa propriétaire remarque d’abord vos cheveux dressés."
+        },
+        "pt": {
+          "name": "Bolha de pacote",
+          "blurb": "Mantém um objeto pequeno seco e protegido.",
+          "fields": {
+            "capability": "Envolve um objeto em uma bolha impermeável que amortece impactos.",
+            "condition": "Amarre um barbante ao objeto e deseje uma chegada segura.",
+            "limit": "Um objeto de até 1 kg por uma hora; sem seres vivos nem conteúdo pontiagudo.",
+            "drawback": "Seu cabelo flutua para cima por uma hora.",
+            "firstUse": "Você transporta uma xícara de porcelana por uma rua de pedras."
+          },
+          "story": "A xícara fica intacta mesmo com a carroça sacudindo. A pessoa que a recebe nota primeiro seu cabelo em pé."
+        }
+      }
+    },
+    {
+      "id": "beast-interpreter",
+      "weight": 6,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#edf5f3",
+        "coat": "#e5c3ae",
+        "accent": "#8c4463",
+        "pattern": "stripes",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "crown",
+        "robe": "tunic"
+      },
+      "text": {
+        "ko": {
+          "name": "동물 통역 귀",
+          "blurb": "명령 대신 동물의 말을 듣는다.",
+          "fields": {
+            "capability": "가까운 동물 한 종의 뜻을 사람 말로 이해한다.",
+            "condition": "그 동물의 울음 리듬을 세 번 따라 한다.",
+            "limit": "반경 10 m, 10분. 복종시키거나 마음을 읽지는 못한다.",
+            "drawback": "끝난 뒤 30분간 말끝에 그 동물 소리가 섞인다.",
+            "firstUse": "우물 앞 염소가 왜 길을 막는지 묻는다."
+          },
+          "story": "염소는 우물가의 미끄러운 돌을 알려 준다. 당신은 사람들에게 경고하며 문장 끝마다 매애 소리를 낸다."
+        },
+        "en": {
+          "name": "Beast Interpreter",
+          "blurb": "Hear animals instead of commanding them.",
+          "fields": {
+            "capability": "Understand nearby animals of one species in human words.",
+            "condition": "Repeat the rhythm of that animal’s call three times.",
+            "limit": "Within 10 m for ten minutes; no obedience or mind reading.",
+            "drawback": "Their call slips into your sentence endings for thirty minutes.",
+            "firstUse": "Ask why a goat is blocking the well path."
+          },
+          "story": "The goat points out slippery stones beside the well. You warn the villagers with a bleat after each sentence."
+        },
+        "es": {
+          "name": "Intérprete animal",
+          "blurb": "Escucha a los animales en vez de darles órdenes.",
+          "fields": {
+            "capability": "Entiendes en palabras humanas a animales cercanos de una especie.",
+            "condition": "Imita tres veces el ritmo de su llamada.",
+            "limit": "Radio de 10 m, diez minutos; no obliga a obedecer ni lee mentes.",
+            "drawback": "Durante treinta minutos acabas las frases con su sonido.",
+            "firstUse": "Preguntas por qué una cabra bloquea el camino al pozo."
+          },
+          "story": "La cabra avisa de piedras resbaladizas junto al pozo. Alertas al pueblo con un balido tras cada frase."
+        },
+        "zh": {
+          "name": "动物翻译耳",
+          "blurb": "听懂动物，而不是命令动物。",
+          "fields": {
+            "capability": "把附近同一种动物表达的意思听成人话。",
+            "condition": "模仿该动物叫声的节奏三次。",
+            "limit": "半径10 m，十分钟；不能强迫服从或读心。",
+            "drawback": "结束后三十分钟，每句话末尾都会混入该动物叫声。",
+            "firstUse": "问堵住井边小路的山羊为何不走。"
+          },
+          "story": "山羊提醒你井边石头很滑。你向村民发出警告，每句话后面都跟着一声咩。"
+        },
+        "ja": {
+          "name": "動物通訳の耳",
+          "blurb": "命令でなく動物の話を聞く。",
+          "fields": {
+            "capability": "近くにいる一種類の動物の意思を人の言葉で理解する。",
+            "condition": "その動物の鳴き声のリズムを三回まねる。",
+            "limit": "半径10 m、十分間。従わせたり心を読んだりはできない。",
+            "drawback": "終了後三十分、語尾にその動物の鳴き声が混ざる。",
+            "firstUse": "井戸への道をふさぐヤギに理由を尋ねる。"
+          },
+          "story": "ヤギは井戸端の滑る石を教える。あなたは一文ごとにメエと鳴きながら村人に注意する。"
+        },
+        "de": {
+          "name": "Tiersprachliches Ohr",
+          "blurb": "Höre Tieren zu, statt ihnen zu befehlen.",
+          "fields": {
+            "capability": "Versteht nahe Tiere einer Art in menschlichen Worten.",
+            "condition": "Ahme den Rhythmus ihres Rufs dreimal nach.",
+            "limit": "Umkreis von 10 m, zehn Minuten; weder Gehorsam noch Gedankenlesen.",
+            "drawback": "Dreißig Minuten lang mischt sich ihr Ruf in deine Satzenden.",
+            "firstUse": "Du fragst eine Ziege, warum sie den Weg zum Brunnen blockiert."
+          },
+          "story": "Die Ziege warnt vor glatten Steinen am Brunnen. Du warnst das Dorf mit einem Meckern nach jedem Satz."
+        },
+        "fr": {
+          "name": "Oreille interprète",
+          "blurb": "Écoutez les animaux plutôt que de leur donner des ordres.",
+          "fields": {
+            "capability": "Comprend en mots humains les animaux proches d’une même espèce.",
+            "condition": "Imitez trois fois le rythme de leur cri.",
+            "limit": "Rayon de 10 m, dix minutes ; ni obéissance forcée ni lecture des pensées.",
+            "drawback": "Leur cri ponctue vos phrases pendant trente minutes ensuite.",
+            "firstUse": "Vous demandez pourquoi une chèvre bloque le chemin du puits."
+          },
+          "story": "La chèvre signale des pierres glissantes au bord du puits. Vous prévenez le village avec un bêlement après chaque phrase."
+        },
+        "pt": {
+          "name": "Ouvido intérprete",
+          "blurb": "Ouça os animais em vez de dar ordens.",
+          "fields": {
+            "capability": "Entende em palavras humanas animais próximos de uma espécie.",
+            "condition": "Imite três vezes o ritmo do chamado desse animal.",
+            "limit": "Raio de 10 m, dez minutos; sem obediência forçada nem leitura de mente.",
+            "drawback": "O chamado aparece no fim das suas frases por trinta minutos.",
+            "firstUse": "Você pergunta por que uma cabra bloqueia o caminho do poço."
+          },
+          "story": "A cabra avisa sobre pedras escorregadias na beira. Você alerta o povo e termina cada frase com um balido."
+        }
+      }
+    },
+    {
+      "id": "provisional-wall",
+      "weight": 4,
+      "sourceIds": [],
+      "art": {
+        "type": "magic",
+        "background": "#f8eaea",
+        "coat": "#e2d58f",
+        "accent": "#596b3d",
+        "pattern": "spots",
+        "ear": "round",
+        "fur": "short",
+        "headwear": "cap",
+        "robe": "shirt"
+      },
+      "text": {
+        "ko": {
+          "name": "임시 벽",
+          "blurb": "기존 벽 사이를 잠깐 막는다.",
+          "fields": {
+            "capability": "두 벽 사이 빈틈에 단단한 마법 벽을 세운다.",
+            "condition": "손가락으로 사각형을 그리고 종료 시간을 말한다.",
+            "limit": "폭 6 m, 높이 3 m, 30초. 하루 한 번, 빈 공간에만 가능하다.",
+            "drawback": "그날 자신의 그림자에 문 모양 구멍이 생긴다.",
+            "firstUse": "굴러오는 빈 수레를 막아 시장 길을 비운다."
+          },
+          "story": "벽이 수레를 세우자 사람들이 짐을 치운다. 이후 아이들은 당신의 그림자 문을 통과하는 놀이를 한다."
+        },
+        "en": {
+          "name": "Provisional Wall",
+          "blurb": "Close a gap between walls for a moment.",
+          "fields": {
+            "capability": "Builds a solid magical wall between two existing walls.",
+            "condition": "Draw a rectangle with your finger and state the end time.",
+            "limit": "6 m wide, 3 m high, thirty seconds; once daily, empty space only.",
+            "drawback": "Your shadow has a door-shaped hole for the rest of the day.",
+            "firstUse": "Stop a rolling empty cart while the market path clears."
+          },
+          "story": "The wall stops the cart and people move the cargo aside. Later children play at passing through your shadow’s doorway."
+        },
+        "es": {
+          "name": "Muro provisional",
+          "blurb": "Cierra un hueco entre paredes por un momento.",
+          "fields": {
+            "capability": "Levanta un muro mágico sólido entre dos paredes existentes.",
+            "condition": "Dibuja un rectángulo con el dedo e indica cuándo terminará.",
+            "limit": "6 m de ancho, 3 m de alto, treinta segundos; una vez al día y solo en espacio vacío.",
+            "drawback": "Tu sombra tiene un hueco de puerta durante el resto del día.",
+            "firstUse": "Detienes un carro vacío mientras despejan el camino del mercado."
+          },
+          "story": "El muro frena el carro y la gente aparta la carga. Después, los niños juegan a cruzar la puerta de tu sombra."
+        },
+        "zh": {
+          "name": "临时墙",
+          "blurb": "短暂封住两堵墙之间的缺口。",
+          "fields": {
+            "capability": "在现有两墙之间生成坚固的魔法墙。",
+            "condition": "用手指画矩形，并说出结束时间。",
+            "limit": "宽6 m，高3 m，三十秒；每天一次，只能在空处生成。",
+            "drawback": "当天余下时间，影子里会出现门形洞。",
+            "firstUse": "拦住滑动的空货车，为市场清路。"
+          },
+          "story": "魔法墙挡下货车，人们趁机挪开货物。后来孩子们玩起了穿过你影子门的游戏。"
+        },
+        "ja": {
+          "name": "仮設の壁",
+          "blurb": "二つの壁の間を短時間ふさぐ。",
+          "fields": {
+            "capability": "既存の二つの壁の間に硬い魔法の壁を作る。",
+            "condition": "指で長方形を描き、終了時刻を告げる。",
+            "limit": "幅6 m、高さ3 m、三十秒。一日一回、何もない空間のみ。",
+            "drawback": "その日は影に扉の形の穴が開く。",
+            "firstUse": "転がる空の荷車を止めて市場の道を空ける。"
+          },
+          "story": "壁が荷車を止め、皆が荷物をどける。その後、子供たちは影の扉をくぐる遊びを始める。"
+        },
+        "de": {
+          "name": "Provisorische Wand",
+          "blurb": "Schließt kurz eine Lücke zwischen Mauern.",
+          "fields": {
+            "capability": "Errichtet eine feste magische Wand zwischen zwei bestehenden Mauern.",
+            "condition": "Zeichne mit dem Finger ein Rechteck und nenne die Endzeit.",
+            "limit": "6 m breit, 3 m hoch, dreißig Sekunden; einmal täglich, nur in leerem Raum.",
+            "drawback": "Dein Schatten hat den restlichen Tag ein türförmiges Loch.",
+            "firstUse": "Du stoppst einen rollenden leeren Wagen, während der Marktweg frei wird."
+          },
+          "story": "Die Wand hält den Wagen und Menschen räumen die Ladung beiseite. Später spielen Kinder am Türloch deines Schattens."
+        },
+        "fr": {
+          "name": "Mur provisoire",
+          "blurb": "Ferme un instant l’espace entre deux murs.",
+          "fields": {
+            "capability": "Dresse un mur magique solide entre deux murs existants.",
+            "condition": "Dessinez un rectangle du doigt et annoncez l’heure de fin.",
+            "limit": "6 m de large, 3 m de haut, trente secondes ; une fois par jour, dans un espace vide.",
+            "drawback": "Votre ombre garde un trou en forme de porte pour la journée.",
+            "firstUse": "Vous bloquez une charrette vide le temps de dégager le marché."
+          },
+          "story": "Le mur arrête la charrette et chacun écarte les marchandises. Plus tard, les enfants jouent à traverser la porte de votre ombre."
+        },
+        "pt": {
+          "name": "Parede provisória",
+          "blurb": "Fecha por um instante o vão entre paredes.",
+          "fields": {
+            "capability": "Ergue uma parede mágica sólida entre duas paredes existentes.",
+            "condition": "Desenhe um retângulo com o dedo e diga quando termina.",
+            "limit": "6 m de largura, 3 m de altura, trinta segundos; uma vez ao dia, só em espaço vazio.",
+            "drawback": "Sua sombra fica com um buraco de porta pelo resto do dia.",
+            "firstUse": "Você segura uma carroça vazia enquanto liberam o caminho do mercado."
+          },
+          "story": "A parede para a carroça e as pessoas afastam a carga. Depois, as crianças brincam de atravessar a porta da sua sombra."
+        }
+      }
+    }
+  ]
+}
