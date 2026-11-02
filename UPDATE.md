@@ -14,3 +14,10 @@
 - 로컬 브라우저에서 외부 추적 스크립트 0개. HTTPS 프로덕션 4종 로딩·단일 페이지뷰는 실제 부트스트랩 VM 테스트로 확인.
 - 물리 스마트폰, 네이티브 공유의 실제 수신, SNS 실제 게시, 광고 채움과 분석 서버 수신 여부는 검증 범위에 포함하지 않음.
 - 배포 대상: GitHub Pages main:/docs. 정확한 배포 커밋·공개 응답 대조 결과는 워크스페이스 릴리스 기록과 UpdateQue.md에 연결.
+
+## 2026-11-02 — Shared book banner
+
+- Connected all public page types to `https://nanalab.kr/src_cdn/banner/astra.js`. Campaign, design, translated controls and the supplied YES24 book destination are maintained centrally in src_cdn.
+- Shared archive assets load the banner on detail/list pages; other HTML and source templates include the stable deferred loader. HTML-only generator adapters retain the connection after rebuilds and pass non-HTML values through unchanged.
+- The component is closable for the tab session, clears detected bottom navigation, and hides for modals/fullscreen/mobile input. The Astra practice site remains excluded. No additional analytics or ad-network requests are introduced by the component.
+- Existing content, routes and publisher integrations are preserved. Direct HTML changes restore exactly to the baseline when the marked loader is removed. Workspace validation/deployment evidence: `.tools/shared-book-banner-20261102/`.
